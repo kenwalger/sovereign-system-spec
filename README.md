@@ -1,3 +1,4 @@
+remote_theme: jekyll-theme-minimal
 # Sovereign Systems Specification & Glossary
 
 ## I. The Cost & Data Flow Vector
