@@ -1,0 +1,6 @@
+docs: formalize local context patterns and add architecture blueprints
+
+- Append Sovereign Synapse, Fiscal Architecture, and 5 other terms to glossary
+- Establish Section I through V vector mapping for all structural definitions
+- Create architecture.md with MermaidJS pipeline and sequence data flows
+- Link README execution layer callouts to relative document anchors
