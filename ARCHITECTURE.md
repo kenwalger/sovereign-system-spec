@@ -23,6 +23,8 @@ graph TD
     F -->|High-Density Payload| H[Local Brain / SLM Runtime]
 ```
 
+---
+
 ## 2. Pre-Flight Execution & Intent Routing
 
 To protect the context window from tool-selection dilution and unnecessary compute costs, the system utilizes a localized semantic router to gate access to backend tools.
@@ -47,6 +49,8 @@ graph LR
     ToolA --> FR[Generate Forensic Receipt]
     FR --> State[(Reasoning Ledger State Update)]
 ```
+
+---
 
 ## 3. The Write-Time Reflection Lifecycle
 
