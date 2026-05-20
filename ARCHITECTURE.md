@@ -71,29 +71,3 @@ sequenceDiagram
         Trigger->>Ledger: Maintain cold baseline state (Zero token execution cost)
     end
 ```
-
-<script type="module">
-  // 1. Un-nest Jekyll's <pre><code class="language-mermaid"> structures
-  const codeBlocks = document.querySelectorAll('pre code.language-mermaid');
-  
-  codeBlocks.forEach(codeEl => {
-    const preEl = codeEl.parentElement;
-    const mermaidDiv = document.createElement('div');
-    mermaidDiv.className = 'mermaid';
-    mermaidDiv.textContent = codeEl.textContent;
-    
-    // Replace the bulky <pre> block with our clean div
-    preEl.replaceWith(mermaidDiv);
-  });
-
-  // 2. Dynamically import Mermaid to handle the runtime rendering safely
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  
-  mermaid.initialize({ 
-    startOnLoad: true,
-    theme: 'default'
-  });
-  
-  // 3. Force manual parse step in case DOM loaded out of sync
-  await mermaid.run();
-</script>
