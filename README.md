@@ -6,7 +6,7 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
 
 ### 🗺️ System Documentation
 * **Sovereign Systems Glossary** — Core definitions of the five sovereign vectors.
-* **[Architecture & Execution Framework](./architecture.md)** — Visual blueprints, pipeline data flows, and runtime orchestration patterns for local silicon.
+* **[Architecture & Execution Framework](./ARCHITECTURE.md)** — Visual blueprints, pipeline data flows, and runtime orchestration patterns for local silicon.
 
 ---
 ## I. The Cost & Data Flow Vector
