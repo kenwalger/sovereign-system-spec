@@ -1,6 +1,17 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 
 <script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
+  // 1. Find Jekyll's code blocks and give them the class Mermaid expects
+  Array.from(document.getElementsByClassName("language-mermaid")).forEach(element => {
+    element.classList.add("mermaid");
+  });
+
+  // 2. Safely import and run Mermaid
+  import mermaid from '[https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs](https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs)';
+
+  // 3. Explicitly target Jekyll's specific class name for rendering
+  mermaid.initialize({
+    startOnLoad: true,
+    querySelector: '.language-mermaid'
+  });
 </script>
