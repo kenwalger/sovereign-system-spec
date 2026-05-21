@@ -1,6 +1,6 @@
 # Sovereign Inference Patterns
 
-Inference Patterns are repeatable architectural primitives for building deterministic, cost-aware, high-integrity AI systems.
+[Inference Patterns](https://www.kenwalger.com/blog/ai-engineering/inference-patterns-renaissance-vibe-coding-to-engineering/) are repeatable architectural primitives for building deterministic, cost-aware, high-integrity AI systems.
 
 Where the Sovereign Glossary defines the operational philosophy of local-first cognitive infrastructure, these patterns define the runtime execution layer.
 
