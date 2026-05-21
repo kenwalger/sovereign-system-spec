@@ -92,7 +92,7 @@ flowchart TD
 
 ### Related Article
 
-* The Speculative Decoding Pattern
+* [The Speculative Decoding Pattern](https://www.kenwalger.com/blog/ai-engineering/inference-patterns-speculative-decoding-latency-cost-trap/)
 
 ---
 
