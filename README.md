@@ -52,3 +52,19 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
 - **Policy Contract:** Moving past treating prompts as volatile "environment variables" or "magic spells," and instead designing them as immutable, version-controlled software contracts that are pressure-tested against adversarial input.
 - **Privacy as a Financial Strategy:** Framing data protection not as an abstract, ethical luxury, but as a direct fiscal optimization that flattens operational cost curves and eliminates long-term compliance liability.
 - **Chain of Custody Ledger:** The process of cryptographically signing local semantic data chunks (e.g., via `Ed25519`) at the exact millisecond of ingestion, ensuring future autonomous agents can verify the provenance of their local knowledge base without third-party validation.
+
+---
+
+## VI. Emerging Field Terms
+
+- **Transcript-Centric Memory** — The anti-pattern of treating prior chat messages as durable memory by replaying conversation history rather than indexing structured, retrievable state.
+
+- **Memory as Infrastructure** — The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature or transcript cache.
+
+- **Power Grid for Reasoning** — A metaphor for memory systems that provide stable, governed, reusable context to dependent agents.
+
+- **Convergence Gate** — An asynchronous coherence mechanism that reconciles independently processed memory, retrieval, or reasoning paths before they influence downstream action.
+
+- **Federated Gateway** — A distributed boundary model where multiple sovereign systems expose controlled access through governed local interfaces rather than centralized context pooling.
+
+- **Sift/Sieve Tiering** — A hybrid filtering model where low-cost structural filtering occurs first, followed by higher-fidelity semantic evaluation only when needed.

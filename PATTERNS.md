@@ -327,3 +327,21 @@ Potential future pattern domains include:
 # Status
 
 This document is an active architectural reference and will evolve alongside the Sovereign SDK and related runtime implementations.
+
+
+---
+
+# Verbiage to Pattern Mapping
+
+| Field Verbiage | Related Pattern | Related Sovereign Concept | Architectural Interpretation |
+|---|---|---|---|
+| Prose Tax | Context Compression | Fiscal Architecture | Reduce unnecessary token spend before inference. |
+| Ingestion Boundary | Sieve-and-Sign | Sovereign Gateway | Validate and structure data before storage or inference. |
+| Hot/Cold Audit Split | Reasoning Ledger | Chain of Custody Ledger | Separate active reasoning state from immutable archival records. |
+| Append Previous Messages and Hope | Context Compression | Digital Attic | Anti-pattern where transcript replay replaces structured memory. |
+| Memory as Infrastructure | Hybrid Retrieval / Reasoning Ledger | Cognitive Estate | Treat memory as governed, queryable infrastructure. |
+| Pre-Paying for Retrieval Precision | Pre-Paid Retrieval Precision | Fiscal Architecture | Move semantic cost to ingestion to avoid repeated runtime misses. |
+| Forensic Ledger | Hybrid Retrieval / Reasoning Ledger | Forensic Receipt | Preserve causal lineage for retrieval and agent decisions. |
+| Federated Gateway | Multi-Model Routing / Sovereign Gateway | Boundary Deflection | Route across controlled local domains without collapsing trust boundaries. |
+| Convergence Gate | Event-Driven Reflection | Reasoning Ledger | Reconcile async reasoning paths before state promotion. |
+| Sift/Sieve Tiering | Context Compression / Sieve-and-Sign | Semantic Noise | Layer cheap filtering before expensive semantic analysis. |

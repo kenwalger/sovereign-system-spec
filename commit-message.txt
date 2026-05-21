@@ -1,19 +1,20 @@
-Introduce Sovereign Inference Patterns framework
+Expand Sovereign inference architecture and field vocabulary
 
-Adds the initial PATTERNS.md reference document defining the runtime
-execution layer for Sovereign Systems.
+Adds:
+- Canonical PATTERNS.md reference document
+- Runtime relationship models and inference flow diagrams
+- Cross-linking between Sovereign concepts and inference primitives
+- Initial verbiage-to-pattern mapping layer
+- Emerging field terminology and architectural language
 
-Introduces:
-- Efficiency Patterns
-- Structural Retrieval Patterns
-- Agentic Reliability Patterns
-
-Includes architectural relationships between:
-- Speculative Decoding
+Introduces formalized connections between:
+- Prose Tax
+- Reasoning Ledger
+- Ingestion Boundary
 - Context Compression
 - Hybrid Retrieval
 - Agent Tool-Calling
 - Multi-Model Routing
 
-Establishes the bridge between Sovereign governance philosophy and
-practical inference engineering.
+Further evolves Sovereign from a terminology glossary into a
+cohesive runtime architecture and inference governance framework.
