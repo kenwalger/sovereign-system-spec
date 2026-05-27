@@ -19,6 +19,7 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
 - **Information Density Penalty:** The degradation of model performance, speed, and accuracy caused by filling context windows with raw, un-optimized textual records.
 - **Fiscal Architecture:** The systemic engineering of data pipelines to explicitly minimize token overhead, compute latency, and network egress fees. It treats context window space as a scarce financial resource, prioritizing predictable write-time indexing over unpredictable, compounded query-time reasoning costs.
 - **Pre-Paid Retrieval Precision:** An architectural pattern where expensive semantic filtering, cross-entry evaluation, and reasoning workloads are intentionally shifted to write-time ingestion. By paying a fixed token cost upfront to structure and sign context, the system eliminates the compounding cost of "fuzzy misses" during runtime queries.
+- **Context Inflation Tax:** The geometric compounding of financial cost and model attention decay that occurs when an application passes un-optimized, multi-megabyte chronological history blocks to long-context models. While cloud providers monetize massive context windows by allowing unstructured text dumps, the system pays a steep operational penalty as model retrieval accuracy drops (the "Lost in the Middle" phenomenon) while network egress and token billing skyrocket.
 
 ---
 
@@ -64,6 +65,7 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
 - **Convergence Gate** — An asynchronous coherence mechanism that reconciles independently processed memory, retrieval, or reasoning paths before they influence downstream action.
 - **Federated Gateway** — A distributed boundary model where multiple sovereign systems expose controlled access through governed local interfaces rather than centralized context pooling.
 - **Sift/Sieve Tiering** — A hybrid filtering model where low-cost structural filtering occurs first, followed by higher-fidelity semantic evaluation only when needed.
+- **Write-Side Custody:** The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing *at the exact point of ingestion* before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.
 
 ## VII. Anti-Patterns
 
@@ -73,3 +75,10 @@ An architectural anti-pattern in agentic memory design where state history, conv
 - **The Mechanism:** The system relies entirely on write-time embedding generation. It treats memory purely as static data warehouse storage rather than dynamic system infrastructure.
 - **The Failure Mode:** Because retrieval is based purely on text similarity (distance in embedding space) rather than explicit causal or temporal tracing, the agent loses critical, non-semantic structural history. When a system failure or complex multi-step state mutation occurs, a Digital Attic returns fragments that are textually *related* to the query but entirely devoid of the causal lineage, chronological evidence, or validation headers required for deterministic troubleshooting or execution tracking. 
 - **The Sovereign Solution:** Shifting from a storage-first "warehouse" model to a load-bearing **Power Grid** infrastructure model by enforcing strict local [Ingestion Boundaries](./ARCHITECTURE.html#the-ingestion-boundary), executing a [Sieve-and-Sign](./PATTERNS.html#the-sieve-and-sign-pattern) pattern, and committing structured, cryptographically sealed [Forensic Receipts](./PATTERNS.html) rather than raw, ambient prose.
+
+### Ambient Context Fluidity
+An anti-pattern where an application treats an agent's entire active runtime memory, conversational dialogue, and multi-turn tool history as a single, unrestricted, free-flowing text stream.
+
+- **The Mechanism:** The system fails to isolate operational variables or tool results, allowing conversational filler and transient system logs to blend directly into the core system instructions.
+- **The Failure Mode:** The downstream LLM is forced to play the simultaneous role of runtime parser, string filter, and reasoning executor. As semantic drift occurs over multiple turns, the agent suffers from attention fragmentation, loses track of its primary constraints, and becomes highly susceptible to prompt injection or boundary deflection because the lines between system governance and raw input payload have completely dissolved.
+- **The Sovereign Solution:** Establishing a rigid [Ingestion Boundary](#ii-the-structural-boundary-vector) that separates pure application telemetry from execution schemas, passing only highly compressed, absolute state profiles to the model runtime rather than the raw, ambient text loop.
