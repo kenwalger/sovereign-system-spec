@@ -30,18 +30,26 @@ Patterns focused on structured orchestration, deterministic execution, and runti
 * Agent Tool-Calling
 * Multi-Model Routing
 
+## State Integrity & Provenance Patterns
+
+Patterns focused on front-gate data governance, runtime security perimeters, and cryptographic lineage.
+
+* The Sieve-and-Sign Pattern
+* Event-Driven Reflection Trigger
+
 ---
 
 # Runtime Relationship Model
 
 ```mermaid
 graph TD
-    A[Incoming Request] --> B[Multi-Model Routing]
-    B --> C[Hybrid Retrieval]
-    C --> D[Context Compression]
-    D --> E[Agent Tool-Calling]
-    E --> F[Speculative Decoding]
-    F --> G[High-Integrity Output]
+    A[Incoming Raw Telemetry] --> B[Sieve-and-Sign Pattern]
+    B --> C[Multi-Model Routing]
+    C --> D[Hybrid Retrieval]
+    D --> E[Context Compression]
+    E --> F[Agent Tool-Calling]
+    F --> G[Event-Driven Reflection Trigger]
+    G --> H[High-Integrity State Update]
 ```
 
 *The Sovereign runtime pipeline: route intelligently, retrieve precisely, compress aggressively, execute deterministically, infer efficiently.*
@@ -281,6 +289,76 @@ flowchart TD
 ### Related Article
 
 * The Multi-Model Routing Pattern
+
+---
+
+---
+
+# State Integrity & Provenance Patterns
+
+## The Sieve-and-Sign Pattern
+
+### Definition
+A dual-stage ingestion pipeline pattern where raw, unstructured text is programmatically stripped of semantic noise on local silicon (the sieve) and immediately stamped with a local cryptographic signature (the sign) before committing to a long-term data store.
+
+### Solves
+* Write-Side Data Corruption
+* The Prose Tax
+* Ambient Context Fluidity
+* Third-party data-leakage risks
+
+### Related Sovereign Concepts
+* Write-Side Custody
+* Ingestion Boundary
+* Context Cleansing
+* Chain of Custody Ledger
+
+### Runtime Role
+Enforces strict front-gate data sanitation, guaranteeing that downstream models retrieve cryptographically sealed, low-entropy states rather than raw, ambient conversational noise.
+
+### Trade-Off
+Slightly higher local ingestion latency and key-management infrastructure overhead.
+
+### Reference Architecture
+```mermaid
+flowchart TD
+    A([Raw Payload / Untrusted Telemetry]) --> B[Context Cleansing / AST Filter]
+    B --> C[Low-Entropy State Profile]
+    C --> D[Cryptographic Signer Ed25519]
+    D --> E[Forensic Receipt Minter]
+    E --> F[(Sovereign Reasoning Ledger)]
+```
+
+## Event-Driven Reflection Trigger
+### Definition
+An optimization pattern that gates complex, secondary context-processing workloads (such as causal indexing, memory linking, or summary synthesis) to execute only when specific, deterministic structural markers or system error states cross the boundary.
+
+### Solves
+- Continuous reflection token waste
+- Context Inflation Tax
+- Delayed asynchronous context gaps
+
+### Related Sovereign Concepts
+- Observer's Tax
+- Pre-Paid Retrieval Precision
+- Convergence Gate
+
+### Runtime Role
+Replaces expensive, continuous scheduler polling or ambient background processing with localized, signal-based memory orchestration.
+
+### Trade-Off
+Requires rigid structural exception handling and deterministic error-signature design.
+
+### Reference Architecture
+```mermaid
+flowchart LR
+    A([Incoming Tool Payload]) --> B[State Mutation Evaluator]
+    B --> C{Anomalous Signature or Resolution?}
+    C -->|No| D[Commit State & Exit]
+    C -->|Yes| E[Initialize Reflection Runtime]
+    E --> F[Update Causal Chains / Map Memory]
+```
+
 
 ---
 
