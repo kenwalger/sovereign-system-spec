@@ -59,13 +59,17 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
 ## VI. Emerging Field Terms
 
 - **Transcript-Centric Memory** — The anti-pattern of treating prior chat messages as durable memory by replaying conversation history rather than indexing structured, retrievable state.
-
 - **Memory as Infrastructure** — The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature or transcript cache.
-
 - **Power Grid for Reasoning** — A metaphor for memory systems that provide stable, governed, reusable context to dependent agents.
-
 - **Convergence Gate** — An asynchronous coherence mechanism that reconciles independently processed memory, retrieval, or reasoning paths before they influence downstream action.
-
 - **Federated Gateway** — A distributed boundary model where multiple sovereign systems expose controlled access through governed local interfaces rather than centralized context pooling.
-
 - **Sift/Sieve Tiering** — A hybrid filtering model where low-cost structural filtering occurs first, followed by higher-fidelity semantic evaluation only when needed.
+
+## VII. Anti-Patterns
+
+### Digital Attic
+An architectural anti-pattern in agentic memory design where state history, conversational logs, and raw inputs are continuously appended to an unstructured vector store or database with the naive assumption that semantic search can reliably reconstruct operational context at runtime.
+
+- **The Mechanism:** The system relies entirely on write-time embedding generation. It treats memory purely as static data warehouse storage rather than dynamic system infrastructure.
+- **The Failure Mode:** Because retrieval is based purely on text similarity (distance in embedding space) rather than explicit causal or temporal tracing, the agent loses critical, non-semantic structural history. When a system failure or complex multi-step state mutation occurs, a Digital Attic returns fragments that are textually *related* to the query but entirely devoid of the causal lineage, chronological evidence, or validation headers required for deterministic troubleshooting or execution tracking. 
+- **The Sovereign Solution:** Shifting from a storage-first "warehouse" model to a load-bearing **Power Grid** infrastructure model by enforcing strict local [Ingestion Boundaries](./ARCHITECTURE.html#the-ingestion-boundary), executing a [Sieve-and-Sign](./PATTERNS.html#the-sieve-and-sign-pattern) pattern, and committing structured, cryptographically sealed [Forensic Receipts](./PATTERNS.html) rather than raw, ambient prose.
