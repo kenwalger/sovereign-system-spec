@@ -1,5 +1,8 @@
 # Sovereign Inference Patterns
 
+> **Origin and Scope:**  
+> The terms, patterns, and diagrams in this document were first formalized as part of the Sovereign Systems Specification by Ken W. Alger in 2026. They describe architectural approaches to local-first AI systems, deterministic context engineering, data provenance, and operator-owned computation.
+
 [Inference Patterns](https://www.kenwalger.com/blog/ai-engineering/inference-patterns-renaissance-vibe-coding-to-engineering/) are repeatable architectural primitives for building deterministic, cost-aware, high-integrity AI systems.
 
 Where the Sovereign Glossary defines the operational philosophy of local-first cognitive infrastructure, these patterns define the runtime execution layer.

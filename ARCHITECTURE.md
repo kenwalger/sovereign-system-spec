@@ -1,5 +1,8 @@
 # Sovereign Systems Architecture & Execution Framework
 
+> **Origin and Scope:**  
+> The terms, patterns, and diagrams in this document were first formalized as part of the Sovereign Systems Specification by Ken W. Alger in 2026. They describe architectural approaches to local-first AI systems, deterministic context engineering, data provenance, and operator-owned computation.
+
 This document outlines the core structural components and data-flow pipelines of a high-integrity, local-first Sovereign System. It establishes the concrete engineering execution layer that enforces the boundaries defined in the [Sovereign Systems Glossary](README.md).
 
 ## 1. The Local Ingestion & Content Boundary Pipeline

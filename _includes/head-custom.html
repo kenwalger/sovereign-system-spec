@@ -28,20 +28,20 @@
 
 <!-- GEO/AEO structured metadata for Sovereign Systems Specification -->
 
-<link rel="canonical" href="https://kenwalger.github.io/sovereign-system-spec/">
+<!--<link rel="canonical" href="https://kenwalger.github.io/sovereign-system-spec/">-->
 
-<meta name="author" content="Ken W. Alger">
-<meta name="description" content="A formalized, opinionated framework for local-first AI infrastructure, data provenance, deterministic context engineering, and sovereign AI systems.">
+<!--<meta name="author" content="Ken W. Alger">-->
+<!--<meta name="description" content="A formalized, opinionated framework for local-first AI infrastructure, data provenance, deterministic context engineering, and sovereign AI systems.">-->
 
-<meta property="og:title" content="Sovereign Systems Specification & Glossary">
-<meta property="og:description" content="Architectural patterns and terminology for sovereign AI systems, local-first infrastructure, provenance, deterministic context engineering, and operator-owned computation.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://kenwalger.github.io/sovereign-system-spec/">
-<meta property="og:site_name" content="Sovereign Systems Specification">
+<!--<meta property="og:title" content="Sovereign Systems Specification & Glossary">-->
+<!--<meta property="og:description" content="Architectural patterns and terminology for sovereign AI systems, local-first infrastructure, provenance, deterministic context engineering, and operator-owned computation.">-->
+<!--<meta property="og:type" content="website">-->
+<!--<meta property="og:url" content="https://kenwalger.github.io/sovereign-system-spec/">-->
+<!--<meta property="og:site_name" content="Sovereign Systems Specification">-->
 
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sovereign Systems Specification & Glossary">
-<meta name="twitter:description" content="A framework for sovereign AI systems, local-first execution, data provenance, and deterministic context engineering.">
+<!--<meta name="twitter:card" content="summary">-->
+<!--<meta name="twitter:title" content="Sovereign Systems Specification & Glossary">-->
+<!--<meta name="twitter:description" content="A framework for sovereign AI systems, local-first execution, data provenance, and deterministic context engineering.">-->
 
 <script type="application/ld+json">
 {
@@ -60,7 +60,10 @@
         "https://www.linkedin.com/in/kenwalger",
         "https://github.com/kenwalger",
         "https://dev.to/kenwalger",
-        "https://coderlegion.com/user/Ken+W.+Alger"
+        "https://coderlegion.com/user/Ken+W.+Alger",
+        "https://www.kenwalger.com",
+        "https://www.youtube.com/@kenalger6641",
+        "https://sessionize.com/ken-w-alger/"
       ]
     },
     {
@@ -106,6 +109,9 @@
         },
         {
           "@id": "https://kenwalger.github.io/sovereign-system-spec/#forensic-receipt"
+        },
+          {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#sovereign-synapse"
         }
       ]
     },
@@ -144,6 +150,46 @@
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#context-tax",
       "name": "Context Tax",
       "description": "The latency, memory pressure, and reasoning degradation caused by passing excessively large or weakly relevant context windows into model runtimes.",
+      "creator": {
+        "@id": "https://kenwalger.com/#person"
+      },
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kenwalger.github.io/sovereign-system-spec/#digital-attic",
+      "name": "Digital Attic",
+      "description": "An architectural anti-pattern in agentic memory design where state history, conversational logs, and raw inputs are continuously appended to an unstructured vector store or database with the naive assumption that semantic search can reliably reconstruct operational context at runtime.",
+      "creator": {
+        "@id": "https://kenwalger.com/#person"
+      },
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kenwalger.github.io/sovereign-system-spec/#forensic-receipt",
+      "name": "Forensic Receipt",
+      "description": "A deterministic, immutable, and universally unique identifier (UUID) that links a specific model intent or action directly to its causal, historical upstream data footprint. Unlike fluid semantic similarity scores, a forensic receipt establishes a mathematically verifiable chain of custody for agentic decisions.",
+      "creator": {
+        "@id": "https://kenwalger.com/#person"
+      },
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kenwalger.github.io/sovereign-system-spec/#sovereign-synapse",
+      "name": "Sovereign Synapse",
+      "description": "The structural architectural transition from cloud-dependent, API-mediated AI routing to localized, edge-native context processing. It represents the point of execution where data custody and reasoning models are entirely unified within a secure, local system boundary.",
+      "creator": {
+        "@id": "https://kenwalger.com/#person"
+      },
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kenwalger.github.io/sovereign-system-spec/#write-side-custody",
+      "name": "Write-Side Custody",
+      "description": "The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing at the exact point of ingestion before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.",
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
