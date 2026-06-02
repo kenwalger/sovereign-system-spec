@@ -41,9 +41,9 @@ Although the relevant answer exists within the context window, retrieval quality
 
 ## Related Terms
 
-* [Prose Tax](prose-tax.md)
-* [Cognitive Estate](cognitive-estate.md)
-* [Digital Attic](digital-attic.md)
+* [Prose Tax](prose-tax.html)
+* [Cognitive Estate](cognitive-estate.html)
+* [Digital Attic](digital-attic.html)
 * Retrieval Tax
 
 ## References

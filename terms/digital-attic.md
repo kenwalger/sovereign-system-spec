@@ -54,9 +54,9 @@ The objective is deterministic reconstruction rather than probabilistic discover
 
 ## Related Terms
 
-* [Context Tax](context-tax.md)
-* [Write-Side Custody](write-side-custody.md)
-* [Forensic Receipt](forensic-receipt.md)
+* [Context Tax](context-tax.html)
+* [Write-Side Custody](write-side-custody.html)
+* [Forensic Receipt](forensic-receipt.html)
 * Reasoning Ledger
 
 ## References

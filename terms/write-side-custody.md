@@ -78,9 +78,9 @@ Without custody at ingestion, downstream provenance becomes probabilistic rather
 
 ## Related Terms
 
-* [Forensic Receipt](forensic-receipt.md)
-* Sieve-and-Sign Pattern
-* Ingestion Boundary
+* [Forensic Receipt](forensic-receipt.html)
+* [Sieve-and-Sign Pattern](sieve-and-sign-pattern.html)
+* [Ingestion Boundary](ingestion-boundary.html)
 * Deterministic Identity
 
 ## References

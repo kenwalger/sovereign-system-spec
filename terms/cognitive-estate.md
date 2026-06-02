@@ -40,9 +40,9 @@ Rather than treating those records as archival debris, the organization preserve
 
 ## Related Terms
 
-* [Write-Side Custody](write-side-custody.md)
-* [Forensic Receipt](forensic-receipt.md)
-* [Sovereign Synapse](sovereign-synapse.md)
+* [Write-Side Custody](write-side-custody.html)
+* [Forensic Receipt](forensic-receipt.html)
+* [Sovereign Synapse](sovereign-synapse.html)
 * Institutional Memory
 
 ## References

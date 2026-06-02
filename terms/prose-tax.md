@@ -100,9 +100,9 @@ The objective is to reserve natural language for situations where it creates mea
 
 ## Related Terms
 
-* [Context Tax](context-tax.md)
-* [Cognitive Estate](cognitive-estate.md)
-* [Write-Side Custody](write-side-custody.md)
+* [Context Tax](context-tax.html)
+* [Cognitive Estate](cognitive-estate.html)
+* [Write-Side Custody](write-side-custody.html)
 * Fiscal Architecture
 * Information Density Penalty
 

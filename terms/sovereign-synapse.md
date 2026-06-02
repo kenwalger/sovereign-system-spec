@@ -78,7 +78,7 @@ It is an architectural posture that prioritizes:
 
 ## Related Terms
 
-* [Cognitive Estate](cognitive-estate.md)
+* [Cognitive Estate](cognitive-estate.html)
 * Sovereign Gateway
 * Local Brain
 * Federated Gateway

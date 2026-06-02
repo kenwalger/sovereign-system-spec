@@ -55,7 +55,7 @@ This shifts provenance from a best-effort activity into a deterministic architec
 
 ## Related Terms
 
-* [Write-Side Custody](write-side-custody.mds)
+* [Write-Side Custody](write-side-custody.html)
 * Reasoning Ledger
 * Deterministic Identity
 * Chain of Custody Ledger
