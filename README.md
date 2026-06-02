@@ -11,6 +11,11 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
 - **[Architecture & Execution Framework](./ARCHITECTURE.md)** — Visual blueprints, pipeline data flows, and runtime orchestration patterns for local silicon.
 - **[Sovereign Inference Patterns](./PATTERNS.md)** — Repeatable architectural primitives for deterministic, cost-aware, and high-integrity AI inference systems.
 
+### 🛠️ Reference Implementation
+- **[sovereign-sdk](https://github.com/kenwalger/sovereign-sdk)** — The official Python monorepo implementing cryptographic provenance boundaries.
+  - [sovereign-core](https://pypi.org/project/sovereign-core/) — Foundational protocol engine, payload sieving, and Ed25519 signing.
+  - [sovereign-fastapi](https://pypi.org/project/sovereign-fastapi/) — Drop-in ASGI middleware for transparent agent traffic auditing.
+
 ---
 
 ## Sovereign Architectural Posture
