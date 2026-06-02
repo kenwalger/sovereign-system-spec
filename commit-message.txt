@@ -1,6 +1,18 @@
-docs(patterns): add state integrity domain, sieve-and-sign, and event reflection
+feat(spec): add The Observer's Tax to taxonomy and tax expansions
 
-- Formalize 'State Integrity & Provenance' domain
-- Document 'The Sieve-and-Sign Pattern' with validation architecture
-- Document 'Event-Driven Reflection Trigger' for optimized processing
-- Update the top-level Runtime Relationship Model pipeline graph
+Introduces 'The Observer's Tax' to the Sovereign Systems Specification
+as a core computational tax[cite: 1]. This term formalizes the performance, 
+latency, and storage overhead introduced when instrumenting a 
+local-first architecture for deterministic integrity[cite: 1].
+
+Following architectural refinement in the community engineering threads,
+the definition is unified into a two-phase system constraint[cite: 1]:
+1. Write-Side Instrumentation (ingestion hashing, signing, receipts)[cite: 1]
+2. Read-Side Verification (blocking out-of-band ledger validation)[cite: 1]
+
+Updates:
+- README.md: Integrated into 'Vector I: Cost & Data Flow'[cite: 1]
+- README.md: Added comprehensive entry to 'Section VIII: Computational Taxes'[cite: 1]
+
+Contextual Provenance & Discursive Linage:
+[https://dev.to/kenwalger/sovereign-synapse-the-context-cleaner-2iac]

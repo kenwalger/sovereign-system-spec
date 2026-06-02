@@ -60,6 +60,9 @@ The objective is resilient, operator-controlled computation that remains underst
 - **The Prose Tax:** The financial and computational premium paid to cloud LLMs to process conversational boilerplate, formatting, and non-essential semantic structure.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
 - **The Infrastructure Tax:** _See also The Cloud Tax_ The hidden, compounding operational costs, platform lock-in, and unpredictable billing curves associated with relying entirely on proprietary cloud APIs instead of local silicon.
+- **The Observer's Tax:** The systematic performance, computational latency, and storage overhead introduced by instrumenting a local-first architecture for deterministic integrity. It manifests in two distinct phases:
+  - **Write-Side Instrumentation:** The processing overhead incurred during ingestion to generate cryptographic signatures, hashes, and forensic receipts.
+  - **Read-Side Verification:** The latency penalty paid at retrieval time to validate the state and provenance of content-addressed ledger blocks prior to inference context hydration.
 - **Semantic Noise:** Conversational text, pleasantries, or multi-turn reasoning loops that dilute high-signal data vectors within a context window.
 - **Information Density Penalty:** The degradation of model performance, speed, and accuracy caused by filling context windows with raw, un-optimized textual records.
 - **Fiscal Architecture:** The systemic engineering of data pipelines to explicitly minimize token overhead, compute latency, and network egress fees. It treats context window space as a scarce financial resource, prioritizing predictable write-time indexing over unpredictable, compounded query-time reasoning costs.
@@ -255,6 +258,22 @@ Example:
 Paying recurring operational fees to access data generated on systems you already own.
 
 ---
+
+### The Observer's Tax
+
+The systematic performance, computational latency, and storage overhead introduced by instrumenting a local-first architecture for deterministic integrity. It represents the performance cost of instrumentation changing the system it is actively measuring.
+
+Symptoms:
+
+* Snappy local UIs becoming sluggish during conversational turns
+* High CPU spikes immediately preceding inference context hydration
+* Blocking retrieval loops caused by inline cryptographic hashing
+* Un-optimized disk-read bottlenecks during multi-chunk memory retrieval
+
+Example:
+Paying a 50ms cryptographic latency penalty per chunk read to verify long-term memory provenance, solvable by decoupling verification to the cache boundary.
+
+--- 
 
 ### Sovereign Design Principle
 
