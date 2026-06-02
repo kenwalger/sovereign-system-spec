@@ -124,7 +124,10 @@
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
-      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -134,7 +137,10 @@
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
-      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -144,7 +150,10 @@
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
-      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -154,7 +163,10 @@
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
-      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -164,7 +176,10 @@
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
-      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -174,7 +189,10 @@
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
-      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -184,7 +202,10 @@
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
-      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -194,8 +215,29 @@
       "creator": {
         "@id": "https://kenwalger.com/#person"
       },
-      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/"
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {
+          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+      }
     }
   ]
 }
 </script>
+
+{% if page.term_name %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://kenwalger.github.io{{ page.url }}",
+  "name": "{{ page.term_name }}",
+  "description": "{{ page.term_description }}",
+  "creator": {
+    "@id": "https://www.kenwalger.com/#person"
+  },
+  "inDefinedTermSet": {
+      "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+  }
+}
+</script>
+{% endif %}
