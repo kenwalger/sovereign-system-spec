@@ -361,6 +361,35 @@ flowchart LR
     C -->|Yes| E[Initialize Reflection Runtime]
     E --> F[Update Causal Chains / Map Memory]
 ```
+## Intent-Based Namespace Exposure (Pre-Flight Tool Gating)
+
+An optimization and security pattern that interceptively restricts an autonomous agent’s available tool infrastructure to a deterministic, token-scoped namespace based on pre-evaluated session intent, rather than exposing an open-ended capabilities list to the active context window.
+
+### The Problem
+Traditional agent architectures expose a comprehensive, unified list of available tools ($O(N)$ context overhead) directly to the prompt or system contract. In long-running or multi-turn sessions, this creates two severe failure modes:
+1. **Context Window Dilution:** The model wastes precious token overhead continuously parsing system tool definitions it does not require for the immediate operational step.
+2. **The CLAIM-23 Vague-Query Vulnerability:** Under adversarial prompt injection or conversational drift ("vague queries"), a probabilistic agent can be manipulated into invoking powerful write or storage primitives on restricted vault segments because the tool surface remains continuously exposed and active.
+
+### The Mechanism
+Instead of allowing the agent to view its entire operational universe, a lightweight, local-first **Pre-Flight Classifier** evaluates the incoming user payload *before* any tools are initialized or passed to the long-context background model[cite: 1, 2]. 
+
+```text
+ User Payload / Stream Intercept
+               ↓
+     [Pre-Flight Classifier]
+               ↓
+  [Dynamic Namespace Isolation]
+    ├── Authorized: Session Scope (Exposed)
+    └── Restricted: Vault Admin / Direct Writes (Blinded)
+               ↓
+    Active Inference Context Window
+```
+The classifier matches the session's state boundary against an immutable permissions matrix, dynamically generating a targeted, temporary namespace ($O(\text{relevant})$). If a tool primitive (such as an append or overwrite execution) is not explicitly required by the current session token scope, it is entirely scrubbed from the agent's namespace before inference.
+
+## The Sovereign Benefit
+- **Upstream Authority Enforcement:** It solves the write-time authority problem by blinding the agent to the existence of unauthorized tools. If the agent does not know a tool exists, there is no surface area to exploit or hijack.  
+- **Token Optimization:** Minimizes the Context Tax and Prose Tax by stripping out hundreds of lines of irrelevant tool definitions from the system scaffolding on every conversational turn.
+- **Deterministic Containment:** Forces a probabilistic agent to operate within strict, predictable execution rails without requiring a heavy, high-latency cloud-reliant authorization server on the hot inference path.  
 
 
 ---
