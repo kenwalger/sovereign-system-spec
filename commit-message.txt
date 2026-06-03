@@ -1,0 +1,11 @@
+docs(spec): codify hydration terminology in emerging field terms
+
+Introduces three core architectural concepts to Section VI of the
+Sovereign Systems Specification to formalize read-path context mechanics:
+- Context Hydration
+- Hydration Boundary
+- Hydration Latency
+
+These terms provide an explicit structural metaphor for the boundary transition
+where cold, content-addressed ledger blocks are verified out-of-band and
+inflated into volatile LLM active session memory.
