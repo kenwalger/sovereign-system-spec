@@ -75,7 +75,7 @@ The objective is resilient, operator-controlled computation that remains underst
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026. 
 - **The Orchestration Tax:** The compounding complexity cost introduced by excessive agent coordination, workflow routing, tool delegation, and inter-agent communication layers. Systems suffering orchestration tax often replace simple deterministic execution paths with fragile chains of probabilistic coordination.
 - **The Compliance Tax:** The operational overhead generated when governance, auditability, observability, or policy enforcement layers exceed the practical requirements of the workload itself. Compliance tax frequently manifests as telemetry inflation, redundant metadata, and governance systems whose maintenance cost rivals the systems they supervise.
-- **The Retrieval Tax:** The infrastructure and inference overhead associated with maintaining large-scale semantic retrieval systems with poor signal density or weak relevance guarantees. Retrieval tax increases as systems compensate for weak data modeling with progressively larger embedding stores and re-ranking pipelines.
+- **[The Retrieval Tax](./terms/retrieval-tax.html):** The infrastructure and inference overhead associated with maintaining large-scale semantic retrieval systems with poor signal density or weak relevance guarantees. Retrieval tax increases as systems compensate for weak data modeling with progressively larger embedding stores and re-ranking pipelines.
 - **The Cloud Tax:** The cumulative operational dependency burden introduced by external infrastructure providers, including egress fees, vendor lock-in, pricing volatility, and remote execution fragility. Cloud tax represents the long-term economic penalty of surrendering computational locality.
 
 ---
@@ -232,7 +232,7 @@ A review workflow requiring more compute than the original workload.
 
 ---
 
-### The Retrieval Tax
+### [The Retrieval Tax](./terms/retrieval-tax.html)
 
 The infrastructure and inference overhead required to maintain large retrieval systems with weak signal density or poor relevance guarantees.
 
