@@ -66,6 +66,7 @@ The objective is resilient, operator-controlled computation that remains underst
   - **Read-Side Verification:** The latency penalty paid at retrieval time to validate the state and provenance of content-addressed ledger blocks prior to inference context hydration.
 - **Semantic Noise:** Conversational text, pleasantries, or multi-turn reasoning loops that dilute high-signal data vectors within a context window.
 - **Information Density Penalty:** The degradation of model performance, speed, and accuracy caused by filling context windows with raw, un-optimized textual records.
+- **[The Ingestion Tax](./terms/ingestion-tax.html):** The fixed, upfront computational, processing, and token cost paid at the point of data entry to enforce structural validation, semantic filtering, and cryptographic signature generation. It shifts processing complexity to the write path to protect query-time latency.
 - **Fiscal Architecture:** The systemic engineering of data pipelines to explicitly minimize token overhead, compute latency, and network egress fees. It treats context window space as a scarce financial resource, prioritizing predictable write-time indexing over unpredictable, compounded query-time reasoning costs.
 - **Pre-Paid Retrieval Precision:** An architectural pattern where expensive semantic filtering, cross-entry evaluation, and reasoning workloads are intentionally shifted to write-time ingestion. By paying a fixed token cost upfront to structure and sign context, the system eliminates the compounding cost of "fuzzy misses" during runtime queries.
 - **Context Inflation Tax:** The geometric compounding of financial cost and model attention decay that occurs when an application passes un-optimized, multi-megabyte chronological history blocks to long-context models. While cloud providers monetize massive context windows by allowing unstructured text dumps, the system pays a steep operational penalty as model retrieval accuracy drops (the "Lost in the Middle" phenomenon) while network egress and token billing skyrocket.
@@ -183,7 +184,7 @@ Example:
 
 ---
 
-### The Context Tax
+### [The Context Tax](./terms/context-tax.html)
 
 The latency, memory, and cognitive overhead associated with excessively large context windows containing irrelevant or weakly relevant information.
 
@@ -279,6 +280,21 @@ Example:
 Paying a 50ms cryptographic latency penalty per chunk read to verify long-term memory provenance, solvable by decoupling verification to the cache boundary.
 
 --- 
+
+### [The Ingestion Tax](./terms/ingestion-tax.html)
+
+The fixed, upfront computational, processing, and token cost paid at the point of data entry to enforce structural validation, semantic filtering, and cryptographic signature generation. 
+
+Symptoms:
+
+* Artificial delays or processing spikes on the local write path during data import
+* High initial CPU usage before data commits to long-term storage or vector memory
+* Rejecting unvalidated or poorly structured payloads at the ingestion boundary
+
+Example:
+Taking a 45ms processing hit at the front gate to AST-parse and sign an incoming file, explicitly to guarantee sub-millisecond retrieval speeds during live user interactions.
+
+---
 
 ### Sovereign Design Principle
 

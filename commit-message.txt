@@ -1,11 +1,6 @@
-docs(spec): codify hydration terminology in emerging field terms
+docs(spec): integrate The Ingestion Tax to glossary and expansions
 
-Introduces three core architectural concepts to Section VI of the
-Sovereign Systems Specification to formalize read-path context mechanics:
-- Context Hydration
-- Hydration Boundary
-- Hydration Latency
-
-These terms provide an explicit structural metaphor for the boundary transition
-where cold, content-addressed ledger blocks are verified out-of-band and
-inflated into volatile LLM active session memory.
+Adds 'The Ingestion Tax' to Vector I (Cost & Data Flow) and expands its
+definition in Section VIII of the Sovereign Systems Specification. This term
+formalizes the upfront compute, processing, and token costs paid during the
+write phase to secure data integrity and streamline downstream retrieval.
