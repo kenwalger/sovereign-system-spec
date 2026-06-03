@@ -16,6 +16,7 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
   - [sovereign-core](https://pypi.org/project/sovereign-core/) — Foundational protocol engine, payload sieving, and Ed25519 signing.
   - [sovereign-fastapi](https://pypi.org/project/sovereign-fastapi/) — Drop-in ASGI middleware for transparent agent traffic auditing.
   - [sovereign-sieve](https://pypi.org/project/sovereign-sieve/) - Zero-dependency standalone [Prose Tax](./terms/prose-tax.html) token optimization utility for the Sovereign Systems SDK.
+
 ---
 
 ## Sovereign Architectural Posture
