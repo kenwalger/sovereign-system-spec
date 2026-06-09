@@ -131,6 +131,7 @@ The objective is resilient, operator-controlled computation that remains underst
 - **Sift/Sieve Tiering** — A hybrid filtering model where low-cost structural filtering occurs first, followed by higher-fidelity semantic evaluation only when needed.
 - **[Write-Side Custody](./terms/write-side-custody.html):** The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing *at the exact point of ingestion* before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
+
 ---
 
 ## VII. Anti-Patterns
