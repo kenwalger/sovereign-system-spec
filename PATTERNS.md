@@ -438,7 +438,6 @@ Potential future pattern domains include:
 
 This document is an active architectural reference and will evolve alongside the Sovereign SDK and related runtime implementations.
 
-
 ---
 
 # Verbiage to Pattern Mapping

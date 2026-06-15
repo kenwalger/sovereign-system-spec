@@ -11,11 +11,21 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
 - **[Architecture & Execution Framework](./ARCHITECTURE.md)** — Visual blueprints, pipeline data flows, and runtime orchestration patterns for local silicon.
 - **[Sovereign Inference Patterns](./PATTERNS.md)** — Repeatable architectural primitives for deterministic, cost-aware, and high-integrity AI inference systems.
 
-### 🛠️ Reference Implementation
-- **[sovereign-sdk](https://github.com/kenwalger/sovereign-sdk)** — The official Python monorepo implementing cryptographic provenance boundaries.
-  - [sovereign-core](https://pypi.org/project/sovereign-core/) — Foundational protocol engine, payload sieving, and Ed25519 signing.
-  - [sovereign-fastapi](https://pypi.org/project/sovereign-fastapi/) — Drop-in ASGI middleware for transparent agent traffic auditing.
-  - [sovereign-sieve](https://pypi.org/project/sovereign-sieve/) - Zero-dependency standalone [Prose Tax](./terms/prose-tax.html) token optimization utility for the Sovereign Systems SDK.
+## Sovereign SDK
+
+The Sovereign SDK provides reference implementations of key Sovereign Systems patterns and architectural concepts. These components demonstrate practical approaches to provenance-aware AI systems, deterministic ingestion pipelines, and cryptographically verifiable execution workflows.
+
+### Current Components
+
+* [sovereign-sdk](sdk/overview.html) — Primary Python monorepo containing Sovereign Systems reference implementations.
+* [sovereign-core](sdk/sovereign-core.html) — Foundational provenance engine, payload sieving, schema validation, and cryptographic signing primitives.
+* [sovereign-fastapi](sdk/sovereign-fastapi.html) — FastAPI and ASGI middleware supporting transparent auditing and forensic receipt generation.
+* [sovereign-sieve](sdk/sovereign-sieve.html) — Zero-dependency utility implementing the Sieve-and-Sign Pattern to reduce Prose Tax and enforce ingestion boundaries.
+
+### Planned Components
+
+* [sovereign-ledger](sdk/sovereign-ledger.html) — Cryptographically verifiable reasoning ledgers and forensic receipt generation.
+* [sovereign-vault](sdk/sovereign-vault.html) — Long-term sovereign memory infrastructure and structured knowledge custody.
 
 ---
 
@@ -52,7 +62,6 @@ Rather than maximizing theoretical scale, Sovereign Systems prioritize:
 The objective is not minimalism for its own sake.
 
 The objective is resilient, operator-controlled computation that remains understandable, portable, and economically survivable under real-world constraints.
-
 
 ---
 
@@ -99,6 +108,8 @@ The objective is resilient, operator-controlled computation that remains underst
 - **Deterministic Identity:** Assigning unalterable, cryptographically verifiable hash markers to specific semantic assets to ensure permanent data provenance.
 - **The Forensic Trace:** A granular, append-only metadata footprint left by ingestion pipelines that maps the exact lineage, original source context, and transformation history of a piece of data.
 - **Context Cleansing:** The algorithmic process of utilizing AST (Abstract Syntax Tree) parsers and regex pipelines to strip corporate and conversational residue from chat logs.
+
+---
 
 ## IV. The Architectural Component Vector
 - **Evacuation Infrastructure:** The programmatic tooling (ingestors, adapters, and local ledgers) built specifically to migrate intellectual history out of centralized cloud silos and into human-readable, local-first environments.
@@ -313,7 +324,6 @@ It favors:
 The goal is not maximal scale.
 
 The goal is sustainable, resilient, operator-owned computation.
-
 
 
 ### Ambient Context Fluidity

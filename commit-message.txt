@@ -1,6 +1,8 @@
-docs(spec): integrate The Ingestion Tax to glossary and expansions
+feat: add Sovereign SDK documentation hierarchy and roadmap pages
 
-Adds 'The Ingestion Tax' to Vector I (Cost & Data Flow) and expands its
-definition in Section VIII of the Sovereign Systems Specification. This term
-formalizes the upfront compute, processing, and token costs paid during the
-write phase to secure data integrity and streamline downstream retrieval.
+- Create dedicated SDK section within specification site
+- Add sovereign-sdk, sovereign-core, sovereign-fastapi, and sovereign-sieve documentation pages
+- Add planned sovereign-ledger and sovereign-vault roadmap pages
+- Expand reference implementation section into SDK ecosystem overview
+- Cross-link SDK components to Sovereign Systems concepts and patterns
+- Improve discoverability for GEO/AEO and future documentation growth
