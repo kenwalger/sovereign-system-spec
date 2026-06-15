@@ -67,39 +67,39 @@ The objective is resilient, operator-controlled computation that remains underst
 
 ## I. The Cost & Data Flow Vector
 - **The Audit Tax:** The operational, engineering, and compute overhead required to capture, structure, and verify the multi-step execution logs of autonomous AI agents. Unlike traditional deterministic system logging, auditing non-deterministic LLM transactions requires cryptographic validation (such as signed forensic receipts) to guarantee data integrity, satisfy compliance frameworks, and mathematically prove that an agent's runtime parameters were not modified or hijacked mid-flight.
-- **[The Prose Tax](./terms/prose-tax.html):** The financial and computational premium paid to cloud LLMs to process conversational boilerplate, formatting, and non-essential semantic structure.
+- **[The Prose Tax]({{ site.baseurl}}/terms/prose-tax.html):** The financial and computational premium paid to cloud LLMs to process conversational boilerplate, formatting, and non-essential semantic structure.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
 - **The Infrastructure Tax:** _See also The Cloud Tax_ The hidden, compounding operational costs, platform lock-in, and unpredictable billing curves associated with relying entirely on proprietary cloud APIs instead of local silicon.
-- **[The Observer's Tax](./terms/observer-tax.html):** The systematic performance, computational latency, and storage overhead introduced by instrumenting a local-first architecture for deterministic integrity. It manifests in two distinct phases:
+- **[The Observer's Tax]({{ site.baseurl}}/terms/observer-tax.html):** The systematic performance, computational latency, and storage overhead introduced by instrumenting a local-first architecture for deterministic integrity. It manifests in two distinct phases:
   - **Write-Side Instrumentation:** The processing overhead incurred during ingestion to generate cryptographic signatures, hashes, and forensic receipts.
   - **Read-Side Verification:** The latency penalty paid at retrieval time to validate the state and provenance of content-addressed ledger blocks prior to inference context hydration.
 - **Semantic Noise:** Conversational text, pleasantries, or multi-turn reasoning loops that dilute high-signal data vectors within a context window.
 - **Information Density Penalty:** The degradation of model performance, speed, and accuracy caused by filling context windows with raw, un-optimized textual records.
-- **[The Ingestion Tax](./terms/ingestion-tax.html):** The fixed, upfront computational, processing, and token cost paid at the point of data entry to enforce structural validation, semantic filtering, and cryptographic signature generation. It shifts processing complexity to the write path to protect query-time latency.
+- **[The Ingestion Tax]({{ site.baseurl}}/terms/ingestion-tax.html):** The fixed, upfront computational, processing, and token cost paid at the point of data entry to enforce structural validation, semantic filtering, and cryptographic signature generation. It shifts processing complexity to the write path to protect query-time latency.
 - **Fiscal Architecture:** The systemic engineering of data pipelines to explicitly minimize token overhead, compute latency, and network egress fees. It treats context window space as a scarce financial resource, prioritizing predictable write-time indexing over unpredictable, compounded query-time reasoning costs.
 - **Pre-Paid Retrieval Precision:** An architectural pattern where expensive semantic filtering, cross-entry evaluation, and reasoning workloads are intentionally shifted to write-time ingestion. By paying a fixed token cost upfront to structure and sign context, the system eliminates the compounding cost of "fuzzy misses" during runtime queries.
 - **Context Inflation Tax:** The geometric compounding of financial cost and model attention decay that occurs when an application passes un-optimized, multi-megabyte chronological history blocks to long-context models. While cloud providers monetize massive context windows by allowing unstructured text dumps, the system pays a steep operational penalty as model retrieval accuracy drops (the "Lost in the Middle" phenomenon) while network egress and token billing skyrocket.
 - **The Token Tax:** The cumulative financial and computational cost incurred when AI systems consume excessive prompt tokens, orchestration scaffolding, recursive summaries, or redundant conversational state. It reflects the hidden operational penalty of replacing deterministic workflows with verbose probabilistic reasoning.
-- **[The Context Tax](./terms/context-tax.html):** The latency, memory pressure, and reasoning degradation caused by passing excessively large or weakly relevant context windows into model runtimes. As context size grows, signal density falls and retrieval precision deteriorates.
+- **[The Context Tax]({{ site.baseurl}}/terms/context-tax.html):** The latency, memory pressure, and reasoning degradation caused by passing excessively large or weakly relevant context windows into model runtimes. As context size grows, signal density falls and retrieval precision deteriorates.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026. 
 - **The Orchestration Tax:** The compounding complexity cost introduced by excessive agent coordination, workflow routing, tool delegation, and inter-agent communication layers. Systems suffering orchestration tax often replace simple deterministic execution paths with fragile chains of probabilistic coordination.
 - **The Compliance Tax:** The operational overhead generated when governance, auditability, observability, or policy enforcement layers exceed the practical requirements of the workload itself. Compliance tax frequently manifests as telemetry inflation, redundant metadata, and governance systems whose maintenance cost rivals the systems they supervise.
-- **[The Retrieval Tax](./terms/retrieval-tax.html):** The infrastructure and inference overhead associated with maintaining large-scale semantic retrieval systems with poor signal density or weak relevance guarantees. Retrieval tax increases as systems compensate for weak data modeling with progressively larger embedding stores and re-ranking pipelines.
+- **[The Retrieval Tax]({{ site.baseurl}}/terms/retrieval-tax.html):** The infrastructure and inference overhead associated with maintaining large-scale semantic retrieval systems with poor signal density or weak relevance guarantees. Retrieval tax increases as systems compensate for weak data modeling with progressively larger embedding stores and re-ranking pipelines.
 - **The Cloud Tax:** The cumulative operational dependency burden introduced by external infrastructure providers, including egress fees, vendor lock-in, pricing volatility, and remote execution fragility. Cloud tax represents the long-term economic penalty of surrendering computational locality.
 
 ---
 
 ## II. The Structural Boundary Vector
-- **[Cognitive Estate](./terms/cognitive-estate.html):** The collective sum of an individual or enterprise's intellectual history, private conversations, and reasoning workflows, framed as a sovereign financial asset.
+- **[Cognitive Estate]({{ site.baseurl}}/terms/cognitive-estate.html):** The collective sum of an individual or enterprise's intellectual history, private conversations, and reasoning workflows, framed as a sovereign financial asset.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
-- **[Ingestion Boundary](./terms/ingestion-boundary.html):** The strict structural gate where incoming raw data is programmatically parsed, flattened, and typed before touching the local storage layer.
+- **[Ingestion Boundary]({{ site.baseurl}}/terms/ingestion-boundary.html):** The strict structural gate where incoming raw data is programmatically parsed, flattened, and typed before touching the local storage layer.
 - **Sovereign Gateway:** An isolated local edge boundary that intercepts, sanitizes, and routes data payloads, enforcing local-first privacy compliance before any cloud orchestration can occur.
 - **Boundary Deflection:** A critical failure state where an AI agent's prompt boundary shifts or yields under adversarial input or semantic drift, rather than maintaining deterministic isolation.
-- **[Sovereign Synapse](./terms/sovereign-synapse.html):** The structural architectural transition from cloud-dependent, API-mediated AI routing to localized, edge-native context processing. It represents the point of execution where data custody and reasoning models are entirely unified within a secure, local system boundary.
+- **[Sovereign Synapse]({{ site.baseurl}}/terms/sovereign-synapse.html):** The structural architectural transition from cloud-dependent, API-mediated AI routing to localized, edge-native context processing. It represents the point of execution where data custody and reasoning models are entirely unified within a secure, local system boundary.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
-- **[Forensic Receipt](./terms/forensic-receipt.html):** A deterministic, immutable, and universally unique identifier (UUID) that links a specific model intent or action directly to its causal, historical upstream data footprint. Unlike fluid semantic similarity scores, a forensic receipt establishes a mathematically verifiable chain of custody for agentic decisions.
+- **[Forensic Receipt]({{ site.baseurl}}/terms/forensic-receipt.html):** A deterministic, immutable, and universally unique identifier (UUID) that links a specific model intent or action directly to its causal, historical upstream data footprint. Unlike fluid semantic similarity scores, a forensic receipt establishes a mathematically verifiable chain of custody for agentic decisions.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026. 
-- **[Reasoning Ledger](./terms/reasoning-ledger.html) (vs. [Digital Attic](./terms/digital-attic.html)):** A highly structured, append-only index of contextual state changes, causal candidates, and verified data provenance. It stands in direct contrast to a "Digital Attic"—the chaotic enterprise anti-pattern of dumping unvetted, unstructured raw logs into vector storage and hoping the LLM can parse it at runtime.
+- **[Reasoning Ledger]({{ site.baseurl}}/terms/reasoning-ledger.html) (vs. [Digital Attic]({{ site.baseurl}}/terms/digital-attic.html)):** A highly structured, append-only index of contextual state changes, causal candidates, and verified data provenance. It stands in direct contrast to a "Digital Attic"—the chaotic enterprise anti-pattern of dumping unvetted, unstructured raw logs into vector storage and hoping the LLM can parse it at runtime.
 
 ---
 
@@ -114,7 +114,7 @@ The objective is resilient, operator-controlled computation that remains underst
 ## IV. The Architectural Component Vector
 - **Evacuation Infrastructure:** The programmatic tooling (ingestors, adapters, and local ledgers) built specifically to migrate intellectual history out of centralized cloud silos and into human-readable, local-first environments.
 - **Forensic Ingestor / Rare Book Auditor:** An ingestion engine that applies rigorous data forensics to unstructured, historical, or corporate text dumps to extract verifiable truth and deterministic lineage.
-- **[The Sieve-and-Sign Pattern](./terms/sieve-and-sign-pattern.html):** An architectural pipeline pattern where unstructured input is aggressively filtered for semantic noise (the sieve) and immediately stamped with a cryptographic signature (the sign) to ensure instant, verified local memory governance.
+- **[The Sieve-and-Sign Pattern]({{ site.baseurl}}/terms/sieve-and-sign-pattern.html):** An architectural pipeline pattern where unstructured input is aggressively filtered for semantic noise (the sieve) and immediately stamped with a cryptographic signature (the sign) to ensure instant, verified local memory governance.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026. 
 - **The Local Brain:** The design pattern of wrapping optimized, heavily compressed local text schemas inside specialized Small Language Models (SLMs) to completely bypass cloud API network latencies and variable billing curves.
 - **Intent-Based Namespace Exposure (Pre-Flight Classifier):** An optimization strategy where a lightweight, localized semantic router evaluates a user’s intent before any tools are initialized. Instead of exposing an entire unified list of available tools to the context window ($O(N)$ overhead), the classifier restricts visibility to a highly targeted, relevant namespace ($O(\text{relevant})$), maintaining a lean context profile and preventing tool selection dilution.
@@ -140,14 +140,14 @@ The objective is resilient, operator-controlled computation that remains underst
 - **Hydration Latency:** The specific reading and compute delay incurred during the hydration process, caused by un-optimized database lookups, inline signature verification loops, or heavy string manipulation immediately preceding an inference turn.
 - **Federated Gateway** — A distributed boundary model where multiple sovereign systems expose controlled access through governed local interfaces rather than centralized context pooling.
 - **Sift/Sieve Tiering** — A hybrid filtering model where low-cost structural filtering occurs first, followed by higher-fidelity semantic evaluation only when needed.
-- **[Write-Side Custody](./terms/write-side-custody.html):** The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing *at the exact point of ingestion* before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.
+- **[Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html):** The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing *at the exact point of ingestion* before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
 
 ---
 
 ## VII. Anti-Patterns
 
-### [Digital Attic](./terms/digital-attic.html)
+### [Digital Attic]({{ site.baseurl}}/terms/digital-attic.html)
 An architectural anti-pattern in agentic memory design where state history, conversational logs, and raw inputs are continuously appended to an unstructured vector store or database with the naive assumption that semantic search can reliably reconstruct operational context at runtime.
 
 - **The Mechanism:** The system relies entirely on write-time embedding generation. It treats memory purely as static data warehouse storage rather than dynamic system infrastructure.
@@ -180,7 +180,7 @@ A 30-token operation requiring 4,000 tokens of orchestration scaffolding.
 
 ---
 
-### [The Prose Tax](./terms/prose-tax.html)
+### [The Prose Tax]({{ site.baseurl}}/terms/prose-tax.html)
 
 The operational overhead introduced when systems optimize for organizational readability, compliance signaling, or committee communication rather than computational efficiency.
 
@@ -196,7 +196,7 @@ Example:
 
 ---
 
-### [The Context Tax](./terms/context-tax.html)
+### [The Context Tax]({{ site.baseurl}}/terms/context-tax.html)
 
 The latency, memory, and cognitive overhead associated with excessively large context windows containing irrelevant or weakly relevant information.
 
@@ -244,7 +244,7 @@ A review workflow requiring more compute than the original workload.
 
 ---
 
-### [The Retrieval Tax](./terms/retrieval-tax.html)
+### [The Retrieval Tax]({{ site.baseurl}}/terms/retrieval-tax.html)
 
 The infrastructure and inference overhead required to maintain large retrieval systems with weak signal density or poor relevance guarantees.
 
@@ -277,7 +277,7 @@ Paying recurring operational fees to access data generated on systems you alread
 
 ---
 
-### [The Observer's Tax](./terms/observer-tax.html)
+### [The Observer's Tax]({{ site.baseurl}}/terms/observer-tax.html)
 
 The systematic performance, computational latency, and storage overhead introduced by instrumenting a local-first architecture for deterministic integrity. It represents the performance cost of instrumentation changing the system it is actively measuring.
 
@@ -293,7 +293,7 @@ Paying a 50ms cryptographic latency penalty per chunk read to verify long-term m
 
 --- 
 
-### [The Ingestion Tax](./terms/ingestion-tax.html)
+### [The Ingestion Tax]({{ site.baseurl}}/terms/ingestion-tax.html)
 
 The fixed, upfront computational, processing, and token cost paid at the point of data entry to enforce structural validation, semantic filtering, and cryptographic signature generation. 
 
