@@ -37,7 +37,7 @@ sdk_package: https://pypi.org/project/sovereign-core/
 
 ## Repository
 
-GitHub Repository(https://www.github.com/kenwalger/sovereign-sdk)
+[GitHub Repository](https://www.github.com/kenwalger/sovereign-sdk)
 
 ## Package
 

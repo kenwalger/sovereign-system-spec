@@ -33,23 +33,13 @@ This increases:
 * [Ingestion Boundary](/terms/ingestion-boundary.html)
 * [Write-Side Custody](/terms/write-side-custody.html)
 
-## Package
-
-PyPI:
-https://pypi.org/project/sovereign-sieve/
-
-## Repository
-
-GitHub:
-https://github.com/kenwalger/sovereign-sdk
-
 ## Installation
 
 `pip install sovereign-sieve`
 
 ## Repository
 
-GitHub Repository(https://www.github.com/kenwalger/sovereign-sdk)
+[GitHub Repository](https://www.github.com/kenwalger/sovereign-sdk)
 
 ## Package
 

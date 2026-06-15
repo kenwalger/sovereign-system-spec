@@ -81,4 +81,4 @@ If you have strong opinions about how trustworthy memory systems should work, no
 
 ## Repository
 
-GitHub: https://github.com/kenwalger/sovereign-sdk
+[GitHub Repository](https://github.com/kenwalger/sovereign-sdk)

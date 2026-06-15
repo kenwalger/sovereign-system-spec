@@ -87,4 +87,4 @@ Future implementation may emerge through community collaboration before an offic
 
 ## Repository
 
-GitHub: https://github.com/kenwalger/sovereign-sdk
+[GitHub](https://github.com/kenwalger/sovereign-sdk)

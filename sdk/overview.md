@@ -26,12 +26,11 @@ Rather than serving as a general AI framework, the SDK focuses on enforcing trus
 
 ## Related Concepts
 
-* [Write-Side Custody](/terms/write-side-custody.html)
-* [Ingestion Boundary](/terms/ingestion-boundary.html)
-* [Forensic Receipt](/terms/forensic-receipt.html)
-* [Reasoning Ledger](/terms/reasoning-ledger.html)
+* [Write-Side Custody](./terms/write-side-custody.html)
+* [Ingestion Boundary](./terms/ingestion-boundary.html)
+* [Forensic Receipt](./terms/forensic-receipt.html)
+* [Reasoning Ledger](./terms/reasoning-ledger.html)
 
 ## Repository
 
-GitHub Repository:
-https://github.com/kenwalger/sovereign-sdk
+[GitHub Repository](https://github.com/kenwalger/sovereign-sdk)

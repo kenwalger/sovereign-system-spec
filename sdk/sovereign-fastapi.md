@@ -37,7 +37,7 @@ Many AI applications expose APIs without capturing sufficient provenance, execut
 
 ## Repository
 
-GitHub Repository(https://www.github.com/kenwalger/sovereign-sdk)
+[GitHub Repository](https://www.github.com/kenwalger/sovereign-sdk)
 
 ## Package
 
