@@ -26,10 +26,10 @@ Rather than serving as a general AI framework, the SDK focuses on enforcing trus
 
 ## Related Concepts
 
-* [Write-Side Custody](./terms/write-side-custody.html)
-* [Ingestion Boundary](./terms/ingestion-boundary.html)
-* [Forensic Receipt](./terms/forensic-receipt.html)
-* [Reasoning Ledger](./terms/reasoning-ledger.html)
+* [Write-Side Custody](/sovereign-system-spec/terms/write-side-custody.html)
+* [Ingestion Boundary](/sovereign-system-spec/terms/ingestion-boundary.html)
+* [Forensic Receipt](/sovereign-system-spec/terms/forensic-receipt.html)
+* [Reasoning Ledger](/sovereign-system-spec/terms/reasoning-ledger.html)
 
 ## Repository
 

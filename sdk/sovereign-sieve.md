@@ -28,10 +28,10 @@ This increases:
 
 ## Related Concepts
 
-* [Prose Tax](/terms/prose-tax.html)
-* [Sieve-and-Sign Pattern](/terms/sieve-and-sign-pattern.html)
-* [Ingestion Boundary](/terms/ingestion-boundary.html)
-* [Write-Side Custody](/terms/write-side-custody.html)
+* [Prose Tax]({{ site.baseurl}}/terms/prose-tax.html)
+* [Sieve-and-Sign Pattern]({{ site.baseurl}}/terms/sieve-and-sign-pattern.html)
+* [Ingestion Boundary]({{ site.baseurl}}/terms/ingestion-boundary.html)
+* [Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html)
 
 ## Installation
 
