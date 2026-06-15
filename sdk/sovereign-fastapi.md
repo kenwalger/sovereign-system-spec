@@ -27,9 +27,9 @@ Many AI applications expose APIs without capturing sufficient provenance, execut
 
 ## Related Concepts
 
-* [Forensic Receipt](/sovereign-system-spec/terms/forensic-receipt.html)
-* [Observer Tax](/sovereign-system-spec/terms/observer-tax.html)
-* [Write-Side Custody](/sovereign-system-spec/terms/write-side-custody.html)
+* [Forensic Receipt]({{ site.baseurl}}/terms/forensic-receipt.html)
+* [Observer Tax]({{ site.baseurl}}/terms/observer-tax.html)
+* [Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html)
 
 ## Installation
 

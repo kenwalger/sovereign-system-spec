@@ -26,10 +26,10 @@ sdk_package: https://pypi.org/project/sovereign-core/
 
 ## Related Concepts
 
-* [Write-Side Custody](/sovereign-system-spec/terms/write-side-custody.html)
-* [Sieve-and-Sign Pattern](/sovereign-system-spec/terms/sieve-and-sign-pattern.html)
-* [Ingestion Boundary](/sovereign-system-spec/terms/ingestion-boundary.html)
-* [Forensic Receipt](/sovereign-system-spec/terms/forensic-receipt.html)
+* [Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html)
+* [Sieve-and-Sign Pattern]({{ site.baseurl}}/terms/sieve-and-sign-pattern.html)
+* [Ingestion Boundary]({{ site.baseurl}}/terms/ingestion-boundary.html)
+* [Forensic Receipt]({{ site.baseurl}}/terms/forensic-receipt.html)
 
 ## Installation
 
