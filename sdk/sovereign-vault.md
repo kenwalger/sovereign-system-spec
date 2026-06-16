@@ -9,9 +9,9 @@ sdk_status: Planned
 
 # sovereign-vault
 
-> **Status:** Planned Component
-> **Last Updated:** June 2026
-> **Community Contributions Welcome**
+> **Status:** Planned Component  
+> **Last Updated:** June 2026  
+> **Community Contributions Welcome**  
 
 ## Overview
 
