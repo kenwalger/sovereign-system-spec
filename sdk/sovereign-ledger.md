@@ -3,15 +3,11 @@
 layout: default
 title: sovereign-ledger
 sdk_name: sovereign-ledger
-sdk_description: Planned append-only provenance ledger for preserving forensic receipts, reasoning lineage, and cryptographically verifiable execution history.
-sdk_status: Planned
+sdk_description: Append-only provenance ledger for preserving forensic receipts, reasoning lineage, and cryptographically verifiable execution history.
+sdk_status: Active
 -------------------
 
 # sovereign-ledger
-
-> **Status:** Planned Component  
-> **Last Updated:** June 2026  
-> **Community Contributions Welcome**  
 
 ## Overview
 
@@ -63,20 +59,20 @@ Allow organizations to maintain complete custody of execution histories without 
 
 ## Related Concepts
 
-* Forensic Receipt
-* Reasoning Ledger
-* Write-Side Custody
-* Ingestion Boundary
-* Provenance
+* [Forensic Receipt]({{ site.baseurl}}/terms/forensic-receipt.html)
+* [Reasoning Ledger]({{ site.baseurl}}/terms/reasoning-ledger.html)
+* [Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html)
+* [Ingestion Boundary]({{ site.baseurl}}/terms/ingestion-boundary.html)
 
-## Community Participation
+## Installation
 
-The Sovereign Systems Specification is an open architecture initiative.
-
-If this concept aligns with your work, contributions, discussions, and pull requests are encouraged.
-
-Future implementation may emerge through community collaboration before an official reference implementation is completed.
+`pip install sovereign-ledger`
 
 ## Repository
 
 [GitHub](https://github.com/kenwalger/sovereign-sdk)
+
+
+## Package
+
+[PyPi Project](https://pypi.org/project/sovereign-ledger/)
