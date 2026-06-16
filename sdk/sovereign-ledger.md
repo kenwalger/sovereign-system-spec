@@ -1,12 +1,4 @@
 ---
-layout: default
-title: sovereign-ledger
-sdk_name: sovereign-ledger
-sdk_description: Planned append-only local ledger for preserving forensic receipts, provenance records, and reasoning lineage within Sovereign Systems implementations.
-sdk_status: Planned
----
-
----
 
 layout: default
 title: sovereign-ledger
