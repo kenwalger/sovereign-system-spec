@@ -1,12 +1,4 @@
 ---
-layout: default
-title: sovereign-vault
-sdk_name: sovereign-vault
-sdk_description: Planned local governance boundary for sovereign memory, context containment, and controlled agent/tool access.
-sdk_status: Planned
----
-
----
 
 layout: default
 title: sovereign-vault

@@ -24,8 +24,10 @@ The Sovereign SDK provides reference implementations of key Sovereign Systems pa
 
 ### Planned Components
 
-* [sovereign-ledger](sdk/sovereign-ledger.html) — Cryptographically verifiable reasoning ledgers and forensic receipt generation.
-* [sovereign-vault](sdk/sovereign-vault.html) — Long-term sovereign memory infrastructure and structured knowledge custody.
+* [sovereign-ledger]({{ site.baseurl }}/sdk/sovereign-ledger.html) — Cryptographically verifiable reasoning ledgers and forensic receipt generation.
+* [sovereign-vault]({{ site.baseurl }}/sdk/sovereign-vault.html) — Long-term sovereign memory infrastructure and structured knowledge custody.
+* [sovereign-edge]({{ site.baseurl }}/sdk/sovereign-edge.html) — Edge-node execution, inference routing, and local-first workload orchestration across sovereign compute boundaries.
+* [sovereign-sensor]({{ site.baseurl }}/sdk/sovereign-sensor.html) — Lightweight telemetry, event capture, and trusted data acquisition for sovereign edge networks.
 
 ---
 
