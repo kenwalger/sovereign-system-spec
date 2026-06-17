@@ -131,7 +131,23 @@ The objective is resilient, operator-controlled computation that remains underst
 
 ---
 
-## VI. Emerging Field Terms
+## VI. THe Sovereign Edge
+
+> Edge Nodes provide locality. Sovereign Nodes provide custody.
+
+- **Point of Genesis:** The precise physical boundary where an analog phenomenon (temperature, voltage, pressure) crosses a silicon pin and becomes digital data. This is where sovereign-sensor lives, sealing the event before it ever hits a trace wire or a radio wave.
+- **Sovereign Envelope:** The cryptographic container we just hardened. It treats raw data as a tamper-evident artifact carrying version, sequence, algorithm, and length-prefixed bytes—proving provenance forever.
+- **Silicon Locality:** The architectural requirement that data processing, storage, and cryptographic operations must remain strictly bound to physical chips owned and operated within your direct perimeter, completely bypassing third-party cloud multitenancy.
+- **Capability Gradient:** The reality of hardware resources. An ESP32 cannot run a large language model, but it can run bare-metal HMAC signatures. A local mini PC can't run a 405B model, but it can host an embedded SQLite database and a small SLM. The system's intelligence and security tasks must scale proportionally across this gradient.
+- **Escalation Boundary:** The threshold where an autonomous local node realizes it lacks the processing capacity or data context to solve a problem safely, triggers a structured protocol request, and escalates the issue up the Capability Gradient to a more powerful node.
+- **Cognitive Appliance:** A local-first hardware device running small, fine-tuned, specialized local models that does exactly one job (e.g., auditing warehouse environment loops, parsing logistics ledgers) with 100% predictability and zero network dependency.
+- **Sovereign Mesh:** A peer-to-peer network of Sovereign Nodes that synchronize state, cross-verify cryptographic logs, and share local intelligence via append-only ledgers without a single central authority or external internet route.
+- **Edge Node:** A local processing boundary that reduces latency, bandwidth, and trust distance by executing workloads as close as possible to the originating data source.
+- **Sovereign Node:** A computational unit that retains authority over its own memory, identity, and execution policies without requiring continuous dependence on an external control plane.
+
+---
+
+## VII. Emerging Field Terms
 
 - **Transcript-Centric Memory** — The anti-pattern of treating prior chat messages as durable memory by replaying conversation history rather than indexing structured, retrievable state.
 - **Memory as Infrastructure** — The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature or transcript cache.
@@ -147,7 +163,7 @@ The objective is resilient, operator-controlled computation that remains underst
 
 ---
 
-## VII. Anti-Patterns
+## VIII. Anti-Patterns
 
 ### [Digital Attic]({{ site.baseurl}}/terms/digital-attic.html)
 An architectural anti-pattern in agentic memory design where state history, conversational logs, and raw inputs are continuously appended to an unstructured vector store or database with the naive assumption that semantic search can reliably reconstruct operational context at runtime.
@@ -158,7 +174,7 @@ An architectural anti-pattern in agentic memory design where state history, conv
 
 ---
 
-## VIII. Computational Taxes (Expanded)
+## IX. Computational Taxes (Expanded)
 
 In Sovereign Systems architecture, a *computational tax* is any recurring operational cost imposed by abstraction layers, orchestration overhead, governance complexity, or external dependency accumulation.
 
