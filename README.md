@@ -25,8 +25,8 @@ The Sovereign SDK provides reference implementations of key Sovereign Systems pa
 
 ### Planned Components
 
-* [sovereign-edge]({{ site.baseurl }}/sdk/sovereign-edge.html) — Edge-node execution, inference routing, and local-first workload orchestration across sovereign compute boundaries.
 * [sovereign-sensor]({{ site.baseurl }}/sdk/sovereign-sensor.html) — Lightweight telemetry, event capture, and trusted data acquisition for sovereign edge networks.
+* [sovereign-edge]({{ site.baseurl }}/sdk/sovereign-edge.html) — Edge-node execution, inference routing, and local-first workload orchestration across sovereign compute boundaries.
 * [sovereign-vault]({{ site.baseurl }}/sdk/sovereign-vault.html) — Long-term sovereign memory infrastructure and structured knowledge custody.
 
 ---
