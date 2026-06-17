@@ -3,6 +3,9 @@ layout: default
 title: Prose Tax
 term_name: Prose Tax
 term_description: The financial and computational premium paid to process conversational boilerplate, formatting, and non-essential semantic structure within AI systems.
+
+# I am the entertainer
+# And I've had to pay my price
 ---
 
 # Prose Tax

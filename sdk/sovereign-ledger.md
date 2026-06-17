@@ -4,6 +4,8 @@ title: sovereign-ledger
 sdk_name: sovereign-ledger
 sdk_description: Append-only provenance ledger for preserving forensic receipts, reasoning lineage, and cryptographically verifiable execution history.
 sdk_status: Active
+
+# Every claim you make
 ---
 
 # sovereign-ledger

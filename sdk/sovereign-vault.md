@@ -5,6 +5,8 @@ title: sovereign-vault
 sdk_name: sovereign-vault
 sdk_description: Planned sovereign memory boundary for structured knowledge custody, controlled retrieval, and long-term institutional memory.
 sdk_status: Planned
+
+# And I think it's gonna be a long long time
 -------------------
 
 # sovereign-vault
