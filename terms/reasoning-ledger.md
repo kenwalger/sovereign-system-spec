@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Reasoning Ledger
 term_name: Reasoning Ledger
 term_description: A structured, append-only index of contextual state changes, causal candidates, provenance records, and verified reasoning artifacts.
--------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Reasoning Ledger
 

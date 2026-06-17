@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Observer's Tax
 term_name: Observer's Tax
 term_description: The performance, latency, storage, and computational overhead introduced by instrumenting a local-first architecture for deterministic integrity, provenance verification, and auditability.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Observer's Tax
 

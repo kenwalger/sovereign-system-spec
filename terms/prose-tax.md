@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Prose Tax
 term_name: Prose Tax
 term_description: The financial and computational premium paid to process conversational boilerplate, formatting, and non-essential semantic structure within AI systems.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Prose Tax
 
@@ -100,9 +99,9 @@ The objective is to reserve natural language for situations where it creates mea
 
 ## Related Terms
 
-* [Context Tax](context-tax.html)
-* [Cognitive Estate](cognitive-estate.html)
-* [Write-Side Custody](write-side-custody.html)
+* [Context Tax]({{ site.baseurl}}/terms/context-tax.html)
+* [Cognitive Estate]({{ site.baseurl}}/terms/cognitive-estate.html)
+* [Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html)
 * Fiscal Architecture
 * Information Density Penalty
 

@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Retrieval Tax
 term_name: Retrieval Tax
 term_description: The infrastructure and inference overhead incurred when retrieval systems compensate for weak data modeling, poor information architecture, or low-signal knowledge stores.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Retrieval Tax
 

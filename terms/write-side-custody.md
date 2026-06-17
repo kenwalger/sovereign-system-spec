@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Write-Side Custody
 term_name: Write-Side Custody
 term_description: The architectural discipline of enforcing validation, provenance, and cryptographic integrity at the point of ingestion.
-------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Write-Side Custody
 

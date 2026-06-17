@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Ingestion Boundary
 term_name: Ingestion Boundary
 term_description: The strict structural gate where incoming raw data is parsed, flattened, typed, validated, and prepared before it reaches storage or model runtime.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Ingestion Boundary
 

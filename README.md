@@ -131,19 +131,19 @@ The objective is resilient, operator-controlled computation that remains underst
 
 ---
 
-## VI. THe Sovereign Edge
+## VI. The Sovereign Edge
 
 > Edge Nodes provide locality. Sovereign Nodes provide custody.
 
-- **Point of Genesis:** The precise physical boundary where an analog phenomenon (temperature, voltage, pressure) crosses a silicon pin and becomes digital data. This is where sovereign-sensor lives, sealing the event before it ever hits a trace wire or a radio wave.
+- **[Point of Genesis]({{ site.baseurl}}/terms/point-of-genesis.html):** The precise physical boundary where an analog phenomenon (temperature, voltage, pressure) crosses a silicon pin and becomes digital data. This is where sovereign-sensor lives, sealing the event before it ever hits a trace wire or a radio wave.
 - **Sovereign Envelope:** The cryptographic container we just hardened. It treats raw data as a tamper-evident artifact carrying version, sequence, algorithm, and length-prefixed bytes—proving provenance forever.
-- **Silicon Locality:** The architectural requirement that data processing, storage, and cryptographic operations must remain strictly bound to physical chips owned and operated within your direct perimeter, completely bypassing third-party cloud multitenancy.
-- **Capability Gradient:** The reality of hardware resources. An ESP32 cannot run a large language model, but it can run bare-metal HMAC signatures. A local mini PC can't run a 405B model, but it can host an embedded SQLite database and a small SLM. The system's intelligence and security tasks must scale proportionally across this gradient.
-- **Escalation Boundary:** The threshold where an autonomous local node realizes it lacks the processing capacity or data context to solve a problem safely, triggers a structured protocol request, and escalates the issue up the Capability Gradient to a more powerful node.
+- **[Silicon Locality]({{ site.baseurl}}/terms/silicon-locality.html):** The architectural requirement that data processing, storage, and cryptographic operations must remain strictly bound to physical chips owned and operated within your direct perimeter, completely bypassing third-party cloud multitenancy.
+- **[Capability Gradient]({{ site.baseurl}}/terms/capability-gradient.html):** The reality of hardware resources. An ESP32 cannot run a large language model, but it can run bare-metal HMAC signatures. A local mini PC can't run a 405B model, but it can host an embedded SQLite database and a small SLM. The system's intelligence and security tasks must scale proportionally across this gradient.
+- **[Escalation Boundary]({{ site.baseurl}}/terms/escalation-boundary.html):** The threshold where an autonomous local node realizes it lacks the processing capacity or data context to solve a problem safely, triggers a structured protocol request, and escalates the issue up the Capability Gradient to a more powerful node.
 - **Cognitive Appliance:** A local-first hardware device running small, fine-tuned, specialized local models that does exactly one job (e.g., auditing warehouse environment loops, parsing logistics ledgers) with 100% predictability and zero network dependency.
-- **Sovereign Mesh:** A peer-to-peer network of Sovereign Nodes that synchronize state, cross-verify cryptographic logs, and share local intelligence via append-only ledgers without a single central authority or external internet route.
+- **[Sovereign Mesh]({{ site.baseurl}}/terms/sovereign-mesh.html):** A peer-to-peer network of Sovereign Nodes that synchronize state, cross-verify cryptographic logs, and share local intelligence via append-only ledgers without a single central authority or external internet route.
 - **Edge Node:** A local processing boundary that reduces latency, bandwidth, and trust distance by executing workloads as close as possible to the originating data source.
-- **Sovereign Node:** A computational unit that retains authority over its own memory, identity, and execution policies without requiring continuous dependence on an external control plane.
+- **[Sovereign Node]({{ site.baseurl}}/terms/sovereign-node.html):** A computational unit that retains authority over its own memory, identity, and execution policies without requiring continuous dependence on an external control plane.
 
 ---
 

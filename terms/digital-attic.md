@@ -1,10 +1,11 @@
 ---
-
 layout: default
 title: Digital Attic
 term_name: Digital Attic
 term_description: An architectural anti-pattern where unstructured state history and conversational records are continuously accumulated with the assumption that retrieval systems can reconstruct context at runtime.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Too low for zero.
+---
 
 # Digital Attic
 
