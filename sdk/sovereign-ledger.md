@@ -8,6 +8,10 @@ sdk_status: Active
 
 # sovereign-ledger
 
+> **Status:** Active  
+> **Released:** June 16, 2026  
+> **Community Contributions Welcome**  
+
 ## Overview
 
 `sovereign-ledger` is a planned component of the Sovereign SDK focused on preserving provenance, reasoning lineage, and execution history through append-only forensic records.

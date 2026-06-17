@@ -9,6 +9,10 @@ sdk_package: https://pypi.org/project/sovereign-sieve/
 
 # sovereign-sieve
 
+> **Status:** Active  
+> **Released:** June 2, 2026  
+> **Community Contributions Welcome**  
+
 `sovereign-sieve` is a lightweight Python utility implementing the Sieve-and-Sign Pattern.
 
 The package exists to reduce Prose Tax by transforming unstructured conversational payloads into deterministic, machine-readable structures before they cross an ingestion boundary.

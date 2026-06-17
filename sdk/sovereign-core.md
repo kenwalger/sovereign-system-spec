@@ -9,6 +9,10 @@ sdk_package: https://pypi.org/project/sovereign-core/
 
 # sovereign-core
 
+> **Status:** Active  
+> **Released:** June 2, 2026  
+> **Community Contributions Welcome**  
+
 `sovereign-core` provides the foundational services required to implement Sovereign Systems architectures.
 
 ## Responsibilities

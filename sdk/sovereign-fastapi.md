@@ -9,6 +9,10 @@ sdk_package: https://pypi.org/project/sovereign-fastapi/
 
 # sovereign-fastapi
 
+> **Status:** Active  
+> **Released:** June 2, 2026  
+> **Community Contributions Welcome**  
+
 `sovereign-fastapi` integrates Sovereign Systems principles directly into FastAPI and ASGI applications.
 
 ## Purpose
