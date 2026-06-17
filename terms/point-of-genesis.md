@@ -22,6 +22,32 @@ It represents the earliest moment at which a physical phenomenon can be observed
 
 Within Sovereign Systems, the Point of Genesis is considered the true beginning of the trust chain.
 
+```mermaid
+graph LR
+    subgraph Physical Universe [Analog Domain]
+        A[Physical Phenomenon<br>Voltage / Temp / Wave]
+    end
+
+    subgraph Point of Genesis [Bare-Metal Silicon]
+        B[Sensor Pin Ingestion] --> C[SovereignEnvelope<br>Seals Preimage]
+    end
+
+    subgraph Hostile Transit [Perimeter Network]
+        D((Untrusted Radio / Wire))
+    end
+
+    subgraph Sovereign Edge [Local Gateway Node]
+        E[Signature Verification] --> F[SovereignLedger<br>Atomic Append]
+    end
+
+    A -->|Analog Signal| B
+    C -->|Raw Wire Bytes| D
+    D -->|Encapsulated Frame| E
+    
+    style Point of Genesis fill:#1f3a52,stroke:#0f1c2a,color:#ffffff,stroke-width:2px;
+    style Sovereign Edge fill:#2d5a27,stroke:#162d13,color:#ffffff,stroke-width:2px;
+```
+
 ## Origin
 
 The term **Point of Genesis** was first formalized as part of the Sovereign Systems Specification by Ken W. Alger in 2026.
