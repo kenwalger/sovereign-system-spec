@@ -2,14 +2,14 @@
 layout: default
 title: sovereign-sensor
 sdk_name: sovereign-sensor
-sdk_description: Planned lightweight cryptographic envelope engine for MicroPython and embedded environments, enforcing Write-Side Custody at the point of data genesis.
-sdk_status: Planned
+sdk_description: Lightweight cryptographic envelope engine for MicroPython and embedded environments, enforcing Write-Side Custody at the point of data genesis.
+sdk_status: Active
 ---
 
 # sovereign-sensor
 
-> **Status:** Planned Component  
-> **Last Updated:** June 2026  
+> **Status:** Active  
+> **Released:** June 16, 2026  
 > **Community Contributions Welcome**  
 
 ## Overview
@@ -52,6 +52,16 @@ The Sovereign Systems Specification is an open architecture initiative.
 
 We actively encourage collaboration from embedded developers, IoT security engineers, hardware designers, and practitioners working with low-power radio networks and remote telemetry arrays.
 
+
+## Installation
+
+`pip install sovereign-sensor`
+
 ## Repository
 
-[GitHub Repository](https://github.com/kenwalger/sovereign-sdk)
+[GitHub](https://github.com/kenwalger/sovereign-sdk)
+
+
+## Package
+
+[PyPi Project](https://pypi.org/project/sovereign-sensor/)

@@ -17,15 +17,15 @@ The Sovereign SDK provides reference implementations of key Sovereign Systems pa
 
 ### Current Components
 
-* [sovereign-sdk](sdk/overview.html) — Primary Python monorepo containing Sovereign Systems reference implementations.
-* [sovereign-core](sdk/sovereign-core.html) — Foundational provenance engine, payload sieving, schema validation, and cryptographic signing primitives.
-* [sovereign-fastapi](sdk/sovereign-fastapi.html) — FastAPI and ASGI middleware supporting transparent auditing and forensic receipt generation.
-* [sovereign-sieve](sdk/sovereign-sieve.html) — Zero-dependency utility implementing the Sieve-and-Sign Pattern to reduce Prose Tax and enforce ingestion boundaries.
+* [sovereign-sdk]({{ site.baseurl }}/sdk/overview.html) — Primary Python monorepo containing Sovereign Systems reference implementations.
+* [sovereign-core]({{ site.baseurl }}/sdk/sovereign-core.html) — Foundational provenance engine, payload sieving, schema validation, and cryptographic signing primitives.
+* [sovereign-fastapi]({{ site.baseurl }}/sdk/sovereign-fastapi.html) — FastAPI and ASGI middleware supporting transparent auditing and forensic receipt generation.
+* [sovereign-sieve]({{ site.baseurl }}/sdk/sovereign-sieve.html) — Zero-dependency utility implementing the Sieve-and-Sign Pattern to reduce Prose Tax and enforce ingestion boundaries.
 * [sovereign-ledger]({{ site.baseurl }}/sdk/sovereign-ledger.html) — Cryptographically verifiable reasoning ledgers and forensic receipt generation.
+* [sovereign-sensor]({{ site.baseurl }}/sdk/sovereign-sensor.html) — Lightweight telemetry, event capture, and trusted data acquisition for sovereign edge networks.
 
 ### Planned Components
 
-* [sovereign-sensor]({{ site.baseurl }}/sdk/sovereign-sensor.html) — Lightweight telemetry, event capture, and trusted data acquisition for sovereign edge networks.
 * [sovereign-edge]({{ site.baseurl }}/sdk/sovereign-edge.html) — Edge-node execution, inference routing, and local-first workload orchestration across sovereign compute boundaries.
 * [sovereign-vault]({{ site.baseurl }}/sdk/sovereign-vault.html) — Long-term sovereign memory infrastructure and structured knowledge custody.
 
