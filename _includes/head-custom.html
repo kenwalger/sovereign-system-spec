@@ -28,20 +28,24 @@
 
 <!-- GEO/AEO structured metadata for Sovereign Systems Specification -->
 
-<!--<link rel="canonical" href="https://kenwalger.github.io/sovereign-system-spec/">-->
-
-<!--<meta name="author" content="Ken W. Alger">-->
-<!--<meta name="description" content="A formalized, opinionated framework for local-first AI infrastructure, data provenance, deterministic context engineering, and sovereign AI systems.">-->
-
-<!--<meta property="og:title" content="Sovereign Systems Specification & Glossary">-->
-<!--<meta property="og:description" content="Architectural patterns and terminology for sovereign AI systems, local-first infrastructure, provenance, deterministic context engineering, and operator-owned computation.">-->
-<!--<meta property="og:type" content="website">-->
-<!--<meta property="og:url" content="https://kenwalger.github.io/sovereign-system-spec/">-->
-<!--<meta property="og:site_name" content="Sovereign Systems Specification">-->
-
-<!--<meta name="twitter:card" content="summary">-->
-<!--<meta name="twitter:title" content="Sovereign Systems Specification & Glossary">-->
-<!--<meta name="twitter:description" content="A framework for sovereign AI systems, local-first execution, data provenance, and deterministic context engineering.">-->
+<!--
+  CHANGES FROM PREVIOUS VERSION:
+  1. Person @id standardized to https://www.kenwalger.com/#person (with www)
+     everywhere, matching header.php on the personal site. This is the single
+     identifier that lets the two sites resolve to ONE entity. Make sure the
+     site 301-redirects non-www to www so the live URL agrees with the @id.
+  2. The #creativework node is now typed ["CreativeWork", "DefinedTermSet"], so
+     every term's inDefinedTermSet points at something that is actually a term set.
+  3. Added the Local-First AI term node, so the about -> #local-first-ai edge
+     resolves instead of dangling.
+  4. Added Write-Side Custody to the CreativeWork's mentions array.
+  5. Removed the license property (it had pointed at the repo, which is not a
+     license). Add it back pointing at the actual LICENSE URL if you want it.
+  6. The per-page block at the bottom now derives its @id from the page filename
+     so it matches the canonical term node above, instead of minting a second
+     identity at the page URL. This assumes each term page filename matches its
+     fragment slug, e.g. cognitive-estate.html <-> #cognitive-estate.
+-->
 
 <script type="application/ld+json">
 {
@@ -49,71 +53,47 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://kenwalger.com/#person",
+      "@id": "https://www.kenwalger.com/#person",
       "name": "Ken W. Alger",
-      "alternateName": [
-          "Ken Alger",
-          "Ken Walger"
-      ],
-      "url": "https://kenwalger.com/",
+      "alternateName": ["Ken Alger", "Ken Walger"],
+      "url": "https://www.kenwalger.com/",
       "sameAs": [
         "https://www.linkedin.com/in/kenwalger",
         "https://github.com/kenwalger",
         "https://dev.to/kenwalger",
         "https://coderlegion.com/user/Ken+W.+Alger",
-        "https://www.kenwalger.com",
         "https://www.youtube.com/@kenalger6641",
         "https://sessionize.com/ken-w-alger/",
         "https://kenwalger.substack.com/"
       ]
     },
     {
-      "@type": "CreativeWork",
+      "@type": ["CreativeWork", "DefinedTermSet"],
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework",
       "name": "Sovereign Systems Specification & Glossary",
       "url": "https://kenwalger.github.io/sovereign-system-spec/",
       "headline": "Sovereign Systems Specification & Glossary",
       "description": "A formalized, opinionated framework for local-first AI infrastructure, data provenance, deterministic context engineering, and sovereign AI systems.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
-      "publisher": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
+      "publisher": {"@id": "https://www.kenwalger.com/#person"},
       "inLanguage": "en-US",
       "isAccessibleForFree": true,
-      "license": "https://github.com/kenwalger/sovereign-system-spec",
       "sameAs": [
         "https://github.com/kenwalger/sovereign-system-spec",
-        "https://kenwalger.com/"
+        "https://www.kenwalger.com/"
       ],
       "about": [
-        {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#sovereign-systems"
-        },
-        {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#cognitive-estate"
-        },
-        {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#local-first-ai"
-        }
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#sovereign-systems"},
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#cognitive-estate"},
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#local-first-ai"}
       ],
       "mentions": [
-        {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#prose-tax"
-        },
-        {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#context-tax"
-        },
-        {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#digital-attic"
-        },
-        {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#forensic-receipt"
-        },
-          {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#sovereign-synapse"
-        }
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#prose-tax"},
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#context-tax"},
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#digital-attic"},
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#forensic-receipt"},
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#sovereign-synapse"},
+        {"@id": "https://kenwalger.github.io/sovereign-system-spec/#write-side-custody"}
       ]
     },
     {
@@ -121,104 +101,81 @@
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#sovereign-systems",
       "name": "Sovereign Systems",
       "description": "Architectural systems designed around local-first execution, operator ownership, deterministic workflows, data provenance, and economically survivable AI infrastructure.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
       "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
-      "inDefinedTermSet": {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
-      }
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
     },
     {
       "@type": "DefinedTerm",
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#cognitive-estate",
       "name": "Cognitive Estate",
       "description": "The collective sum of an individual or enterprise's intellectual history, private conversations, and reasoning workflows, framed as a sovereign knowledge asset.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
       "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
-      "inDefinedTermSet": {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
-      }
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://kenwalger.github.io/sovereign-system-spec/#local-first-ai",
+      "name": "Local-First AI",
+      "description": "An architectural approach in which AI inference, data storage, and reasoning execute primarily on local or edge hardware under operator control, minimizing dependence on remote cloud APIs for execution and data custody.",
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
+      "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
     },
     {
       "@type": "DefinedTerm",
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#prose-tax",
       "name": "Prose Tax",
       "description": "The financial and computational premium paid to process conversational boilerplate, formatting, and non-essential semantic structure in AI systems.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
       "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
-      "inDefinedTermSet": {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
-      }
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
     },
     {
       "@type": "DefinedTerm",
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#context-tax",
       "name": "Context Tax",
       "description": "The latency, memory pressure, and reasoning degradation caused by passing excessively large or weakly relevant context windows into model runtimes.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
       "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
-      "inDefinedTermSet": {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
-      }
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
     },
     {
       "@type": "DefinedTerm",
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#digital-attic",
       "name": "Digital Attic",
       "description": "An architectural anti-pattern in agentic memory design where state history, conversational logs, and raw inputs are continuously appended to an unstructured vector store or database with the naive assumption that semantic search can reliably reconstruct operational context at runtime.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
       "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
-      "inDefinedTermSet": {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
-      }
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
     },
     {
       "@type": "DefinedTerm",
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#forensic-receipt",
       "name": "Forensic Receipt",
-      "description": "A deterministic, immutable, and universally unique identifier (UUID) that links a specific model intent or action directly to its causal, historical upstream data footprint. Unlike fluid semantic similarity scores, a forensic receipt establishes a mathematically verifiable chain of custody for agentic decisions.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "description": "A deterministic, immutable, and universally unique identifier that links a specific model intent or action directly to its causal, historical upstream data footprint, establishing a verifiable chain of custody for agentic decisions.",
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
       "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
-      "inDefinedTermSet": {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
-      }
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
     },
     {
       "@type": "DefinedTerm",
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#sovereign-synapse",
       "name": "Sovereign Synapse",
-      "description": "The structural architectural transition from cloud-dependent, API-mediated AI routing to localized, edge-native context processing. It represents the point of execution where data custody and reasoning models are entirely unified within a secure, local system boundary.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "description": "The structural architectural transition from cloud-dependent, API-mediated AI routing to localized, edge-native context processing, where data custody and reasoning models are unified within a secure local system boundary.",
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
       "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
-      "inDefinedTermSet": {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
-      }
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
     },
     {
       "@type": "DefinedTerm",
       "@id": "https://kenwalger.github.io/sovereign-system-spec/#write-side-custody",
       "name": "Write-Side Custody",
-      "description": "The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing at the exact point of ingestion before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.",
-      "creator": {
-        "@id": "https://kenwalger.com/#person"
-      },
+      "description": "The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing at the exact point of ingestion before data commits to long-term storage or vector memory, asserting that causal lineage cannot be retroactively engineered on the read-side.",
+      "creator": {"@id": "https://www.kenwalger.com/#person"},
       "mainEntityOfPage": "https://kenwalger.github.io/sovereign-system-spec/",
-      "inDefinedTermSet": {
-          "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
-      }
+      "inDefinedTermSet": {"@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"}
     }
   ]
 }
@@ -229,14 +186,16 @@
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "@id": "https://kenwalger.github.io{{ page.url }}",
+  "@id": "https://kenwalger.github.io/sovereign-system-spec/#{{ page.url | split: '/' | last | remove: '.html' }}",
   "name": "{{ page.term_name }}",
   "description": "{{ page.term_description }}",
+  "url": "https://kenwalger.github.io{{ page.url }}",
+  "mainEntityOfPage": "https://kenwalger.github.io{{ page.url }}",
   "creator": {
     "@id": "https://www.kenwalger.com/#person"
   },
   "inDefinedTermSet": {
-      "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
+    "@id": "https://kenwalger.github.io/sovereign-system-spec/#creativework"
   }
 }
 </script>
