@@ -150,7 +150,7 @@ The objective is resilient, operator-controlled computation that remains underst
 ## VII. Emerging Field Terms
 
 - **Transcript-Centric Memory** — The anti-pattern of treating prior chat messages as durable memory by replaying conversation history rather than indexing structured, retrievable state.
-- **Memory as Infrastructure** — The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature or transcript cache.
+- **[Memory as Infrastructure]({{ site.baseurl}}/terms/memory-as-infrastructure.html)** — The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature or transcript cache.
 - **Power Grid for Reasoning** — A metaphor for memory systems that provide stable, governed, reusable context to dependent agents.
 - **Convergence Gate** — An asynchronous coherence mechanism that reconciles independently processed memory, retrieval, or reasoning paths before they influence downstream action.
 - **Context Hydration:** The runtime process of inflating compressed, token-compacted, or content-addressed state schemas back into human-readable text strings within an LLM inference window. 
