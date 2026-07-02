@@ -49,4 +49,4 @@ This increases:
 
 ## Package
 
-[PyPI Project](https://pypi.org/project/sovereign-sdk-sieve/)
+[PyPI Project - sovereign-sdk-sieve](https://pypi.org/project/sovereign-sdk-sieve/)

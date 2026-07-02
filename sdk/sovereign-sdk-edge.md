@@ -57,3 +57,7 @@ If your work interfaces with remote telemetry, low-power computing, or localized
 ## Repository
 
 [GitHub Repository](https://github.com/kenwalger/sovereign-sdk-edge)
+
+## Package
+
+[PyPI Project - sovereign-sdk-edge](https://pypi.org/project/sovereign-sdk-edge/)

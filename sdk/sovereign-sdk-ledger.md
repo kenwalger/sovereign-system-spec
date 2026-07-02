@@ -80,4 +80,4 @@ Allow organizations to maintain complete custody of execution histories without 
 
 ## Package
 
-[PyPi Project](https://pypi.org/project/sovereign-sdk-ledger/)
+[PyPi Project - sovereign-sdk-ledger](https://pypi.org/project/sovereign-sdk-ledger/)

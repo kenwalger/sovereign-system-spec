@@ -47,4 +47,4 @@ sdk_package: https://pypi.org/project/sovereign-sdk-core/
 
 ## Package
 
-[PyPI Project - sovereign-core](https://pypi.org/project/sovereign-sdk-core/)
+[PyPI Project - sovereign-sdk-core](https://pypi.org/project/sovereign-sdk-core/)

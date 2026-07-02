@@ -66,4 +66,4 @@ We actively encourage collaboration from embedded developers, IoT security engin
 
 ## Package
 
-[PyPi Project](https://pypi.org/project/sovereign-sdk-sensor/)
+[PyPi Project - sovereign-sdk-sensor](https://pypi.org/project/sovereign-sdk-sensor/)
