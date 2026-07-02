@@ -27,7 +27,7 @@ The Sovereign SDK provides reference implementations of key Sovereign Systems pa
 
 ### Planned Components
 
-* [sovereign-vault]({{ site.baseurl }}/sdk/sovereign-sdk-vault.html) — Long-term sovereign memory infrastructure and structured knowledge custody.
+* [sovereign-sdk-vault]({{ site.baseurl }}/sdk/sovereign-sdk-vault.html) — Long-term sovereign memory infrastructure and structured knowledge custody.
 
 ---
 

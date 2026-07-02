@@ -1,15 +1,14 @@
 ---
-
 layout: default
-title: sovereign-vault
-sdk_name: sovereign-vault
+title: sovereign-sdk-vault
+sdk_name: sovereign-sdk-vault
 sdk_description: Planned sovereign memory boundary for structured knowledge custody, controlled retrieval, and long-term institutional memory.
 sdk_status: Planned
 
 # And I think it's gonna be a long long time
 -------------------
 
-# sovereign-vault
+# sovereign-sdk-vault
 
 > **Status:** Planned Component  
 > **Last Updated:** June 2026  
@@ -17,9 +16,9 @@ sdk_status: Planned
 
 ## Overview
 
-`sovereign-vault` is a planned component of the Sovereign SDK focused on long-term knowledge custody and sovereign memory management.
+`sovereign-sdk-vault` is a planned component of the Sovereign SDK focused on long-term knowledge custody and sovereign memory management.
 
-Where traditional retrieval systems often accumulate unstructured content into large vector stores, sovereign-vault explores an alternative approach:
+Where traditional retrieval systems often accumulate unstructured content into large vector stores, sovereign-sdk-vault explores an alternative approach:
 
 > Memory should be governed infrastructure, not an accidental byproduct of storage.
 
@@ -33,7 +32,7 @@ The result is often a growing collection of embeddings, vector stores, and archi
 
 The Sovereign Systems Specification refers to this anti-pattern as the **Digital Attic**.
 
-sovereign-vault aims to provide a more deliberate alternative.
+sovereign-sdk-vault aims to provide a more deliberate alternative.
 
 ## Planned Capabilities
 
@@ -67,7 +66,7 @@ Provide durable knowledge infrastructure designed to survive organizational turn
 
 ## Community Participation
 
-The long-term shape of sovereign-vault remains intentionally open.
+The long-term shape of sovereign-sdk-vault remains intentionally open.
 
 The project welcomes architectural discussion, implementation ideas, design proposals, and pull requests from practitioners exploring memory systems, archives, governance, and institutional knowledge preservation.
 
