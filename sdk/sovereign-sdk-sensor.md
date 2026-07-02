@@ -1,22 +1,22 @@
 ---
 layout: default
-title: sovereign-sensor
-sdk_name: sovereign-sensor
+title: sovereign-sdk-sensor
+sdk_name: sovereign-sdk-sensor
 sdk_description: Lightweight cryptographic envelope engine for MicroPython and embedded environments, enforcing Write-Side Custody at the point of data genesis.
 sdk_status: Active
 
 # I hear the talking of the machine
 ---
 
-# sovereign-sensor
+# sovereign-sdk-sensor
 
 > **Status:** Active  
-> **Released:** June 16, 2026  
+> **Released:** June 30, 2026  
 > **Community Contributions Welcome**  
 
 ## Overview
 
-`sovereign-sensor` is a planned bare-metal component of the Sovereign SDK built specifically for embedded microcontrollers running MicroPython or CircuitPython (e.g., ESP32, Raspberry Pi Pico).
+`sovereign-sdk-sensor` is a planned bare-metal component of the Sovereign SDK built specifically for embedded microcontrollers running MicroPython or CircuitPython (e.g., ESP32, Raspberry Pi Pico).
 
 The package exists to enforce **Write-Side Custody** at the exact millisecond data is born. By sealing physical data inputs (telemetry, hardware logs, system events) into signed, compressed envelopes at the hardware pin layer, it ensures absolute cryptographic provenance before the data ever leaves the local microcontroller unit.
 
@@ -28,7 +28,7 @@ Traditional edge telemetry architectures suffer from a critical provenance blind
 * **Payload Bloat:** Standard cryptographic structures and verbose serialization formats (like heavy JSON envelopes) exceed the frame size limits of low-power, long-range radio bands.
 * **Temporal Disconnect:** Separating the collection of data from its cryptographic signing creates an un-verifiable gap where historical records can be retroactively altered or spoofed.
 
-`sovereign-sensor` bridges this gap by welding hardware-level data acquisition directly to cryptographic lineage validation.
+`sovereign-sdk-sensor` bridges this gap by welding hardware-level data acquisition directly to cryptographic lineage validation.
 
 ## Planned Capabilities
 
@@ -57,7 +57,7 @@ We actively encourage collaboration from embedded developers, IoT security engin
 
 ## Installation
 
-`pip install sovereign-sensor`
+`pip install sovereign-sdk-sensor`
 
 ## Repository
 
@@ -66,4 +66,4 @@ We actively encourage collaboration from embedded developers, IoT security engin
 
 ## Package
 
-[PyPi Project](https://pypi.org/project/sovereign-sensor/)
+[PyPi Project](https://pypi.org/project/sovereign-sdk-sensor/)

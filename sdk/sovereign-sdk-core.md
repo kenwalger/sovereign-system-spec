@@ -1,21 +1,21 @@
 ---
 layout: default
-title: sovereign-core
-sdk_name: sovereign-core
+title: sovereign-sdk-core
+sdk_name: sovereign-sdk-core
 sdk_description: Core provenance, validation, and cryptographic signing engine for Sovereign Systems implementations.
 sdk_status: Active
-sdk_package: https://pypi.org/project/sovereign-core/
+sdk_package: https://pypi.org/project/sovereign-sdk-core/
 
 # Driven to the edge of town
 ---
 
-# sovereign-core
+# sovereign-sdk-core
 
 > **Status:** Active  
-> **Released:** June 2, 2026  
+> **Released:** June 30, 2026  
 > **Community Contributions Welcome**  
 
-`sovereign-core` provides the foundational services required to implement Sovereign Systems architectures.
+`sovereign-sdk-core` provides the foundational services required to implement Sovereign Systems architectures.
 
 ## Responsibilities
 
@@ -28,7 +28,7 @@ sdk_package: https://pypi.org/project/sovereign-core/
 
 ## Architectural Role
 
-`sovereign-core` serves as the trusted execution layer responsible for establishing provenance at the point of ingestion rather than attempting to reconstruct trust later in the execution lifecycle.
+`sovereign-sdk-core` serves as the trusted execution layer responsible for establishing provenance at the point of ingestion rather than attempting to reconstruct trust later in the execution lifecycle.
 
 ## Related Concepts
 
@@ -39,7 +39,7 @@ sdk_package: https://pypi.org/project/sovereign-core/
 
 ## Installation
 
-`pip install sovereign-core`
+`pip install sovereign-sdk-core`
 
 ## Repository
 
@@ -47,4 +47,4 @@ sdk_package: https://pypi.org/project/sovereign-core/
 
 ## Package
 
-[PyPI Project - sovereign-core](https://pypi.org/project/sovereign-core/)
+[PyPI Project - sovereign-core](https://pypi.org/project/sovereign-sdk-core/)

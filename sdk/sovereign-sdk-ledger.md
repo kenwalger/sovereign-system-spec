@@ -1,24 +1,24 @@
 ---
 layout: default
-title: sovereign-ledger
-sdk_name: sovereign-ledger
+title: sovereign-sdk-ledger
+sdk_name: sovereign-sdk-ledger
 sdk_description: Append-only provenance ledger for preserving forensic receipts, reasoning lineage, and cryptographically verifiable execution history.
 sdk_status: Active
 
 # Every claim you make
 ---
 
-# sovereign-ledger
+# sovereign-sdk-ledger
 
 > **Status:** Active  
-> **Released:** June 16, 2026  
+> **Released:** June 30, 2026  
 > **Community Contributions Welcome**  
 
 ## Overview
 
-`sovereign-ledger` is a planned component of the Sovereign SDK focused on preserving provenance, reasoning lineage, and execution history through append-only forensic records.
+`sovereign-sdk-ledger` is a planned component of the Sovereign SDK focused on preserving provenance, reasoning lineage, and execution history through append-only forensic records.
 
-While `sovereign-sieve` reduces Prose Tax and `sovereign-core` establishes trusted ingestion boundaries, `sovereign-ledger` is intended to answer a different question:
+While `sovereign-sieve` reduces Prose Tax and `sovereign-core` establishes trusted ingestion boundaries, `sovereign-sdk-ledger` is intended to answer a different question:
 
 > What happened, when did it happen, and how can we prove it?
 
@@ -71,7 +71,7 @@ Allow organizations to maintain complete custody of execution histories without 
 
 ## Installation
 
-`pip install sovereign-ledger`
+`pip install sovereign-sdk-ledger`
 
 ## Repository
 
@@ -80,4 +80,4 @@ Allow organizations to maintain complete custody of execution histories without 
 
 ## Package
 
-[PyPi Project](https://pypi.org/project/sovereign-ledger/)
+[PyPi Project](https://pypi.org/project/sovereign-sdk-ledger/)

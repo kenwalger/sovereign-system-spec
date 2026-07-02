@@ -1,27 +1,27 @@
 ---
 layout: default
-title: sovereign-fastapi
-sdk_name: sovereign-fastapi
+title: sovereign-sdk-fastapi
+sdk_name: sovereign-sdk-fastapi
 sdk_description: FastAPI and ASGI middleware providing transparent provenance capture and forensic auditing.
 sdk_status: Active
-sdk_package: https://pypi.org/project/sovereign-fastapi/
+sdk_package: https://pypi.org/project/sovereign-sdk-fastapi/
 
 # Another working day has ended
 ---
 
-# sovereign-fastapi
+# sovereign-sdk-fastapi
 
 > **Status:** Active  
-> **Released:** June 2, 2026  
+> **Released:** June 30, 2026  
 > **Community Contributions Welcome**  
 
-`sovereign-fastapi` integrates Sovereign Systems principles directly into FastAPI and ASGI applications.
+`sovereign-sdk-fastapi` integrates Sovereign Systems principles directly into FastAPI and ASGI applications.
 
 ## Purpose
 
 Many AI applications expose APIs without capturing sufficient provenance, execution context, or custody information.
 
-`sovereign-fastapi` provides middleware that automatically captures execution metadata, validates incoming payloads, and produces audit-friendly execution records.
+`sovereign-sdk-fastapi` provides middleware that automatically captures execution metadata, validates incoming payloads, and produces audit-friendly execution records.
 
 ## Capabilities
 
@@ -39,7 +39,7 @@ Many AI applications expose APIs without capturing sufficient provenance, execut
 
 ## Installation
 
-`pip install sovereign-fastapi`
+`pip install sovereign-sdk-fastapi`
 
 ## Repository
 
@@ -47,4 +47,4 @@ Many AI applications expose APIs without capturing sufficient provenance, execut
 
 ## Package
 
-[PyPI Project - sovereign-core](https://pypi.org/project/sovereign-fastapi/)
+[PyPI Project - sovereign-sdk-fastapi](https://pypi.org/project/sovereign-sdk-fastapi/)

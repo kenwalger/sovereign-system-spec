@@ -1,24 +1,24 @@
 ---
 layout: default
-title: sovereign-edge
-sdk_name: sovereign-edge
+title: sovereign-sdk-edge
+sdk_name: sovereign-sdk-edge
 sdk_description: Planned low-footprint constraint engine and structural parsing primitives optimized for edge infrastructure and local-first context sieving.
 sdk_status: Planned
 
 # Who's gonna drive you home
 ---
 
-# sovereign-edge
+# sovereign-sdk-edge
 
-> **Status:** Planned Component  
-> **Last Updated:** June 2026  
+> **Status:** Active 
+> **Last Updated:** June 30, 2026  
 > **Community Contributions Welcome**  
 
 ## Overview
 
-`sovereign-edge` is a planned runtime component of the Sovereign SDK designed to provide low-footprint data ingestion, parsing, and context-sieving on resource-constrained hardware (e.g., Raspberry Pi, CM4, and embedded edge nodes). 
+`sovereign-sdk-edge` is a planned runtime component of the Sovereign SDK designed to provide low-footprint data ingestion, parsing, and context-sieving on resource-constrained hardware (e.g., Raspberry Pi, CM4, and embedded edge nodes). 
 
-While server-side components assume abundant compute and memory, `sovereign-edge` establishes a hardened, highly optimized gatekeeper directly at the edge of the physical topography, processing data streams locally before network transmission or high-compute model ingestion.
+While server-side components assume abundant compute and memory, `sovereign-sdk-edge` establishes a hardened, highly optimized gatekeeper directly at the edge of the physical topography, processing data streams locally before network transmission or high-compute model ingestion.
 
 ## Why It Exists
 
@@ -28,7 +28,7 @@ Deploying AI workflows and structural data pipelines to field environments expos
 * **Compute Constraints:** Edge devices cannot support heavy transformer-based models or memory-intensive runtimes.
 * **Structural Decay:** Unstructured data ingested at the edge frequently loses its structural topology (sections, metadata boundaries, and tables) before it can be processed by upstream reasoning engines.
 
-`sovereign-edge` solves this by introducing zero-dependency, local-first primitives that structure, clean, and snapshot context directly on the silicon where it is captured.
+`sovereign-sdk-edge` solves this by introducing zero-dependency, local-first primitives that structure, clean, and snapshot context directly on the silicon where it is captured.
 
 ## Planned Capabilities
 
@@ -56,4 +56,4 @@ If your work interfaces with remote telemetry, low-power computing, or localized
 
 ## Repository
 
-[GitHub Repository](https://github.com/kenwalger/sovereign-sdk)
+[GitHub Repository](https://github.com/kenwalger/sovereign-sdk-edge)

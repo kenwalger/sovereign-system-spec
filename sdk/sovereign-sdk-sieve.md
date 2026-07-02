@@ -1,21 +1,21 @@
 ---
 layout: default
-title: sovereign-sieve
-sdk_name: sovereign-sieve
+title: sovereign-sdk-sieve
+sdk_name: sovereign-sdk-sieve
 sdk_description: Zero-dependency utility implementing the Sieve-and-Sign Pattern and reducing Prose Tax within AI systems.
 sdk_status: Active
-sdk_package: https://pypi.org/project/sovereign-sieve/
+sdk_package: https://pypi.org/project/sovereign-sdk-sieve/
 
 # I don't want clever conversation
 ---
 
-# sovereign-sieve
+# sovereign-sdk-sieve
 
 > **Status:** Active  
-> **Released:** June 2, 2026  
+> **Released:** June 30, 2026  
 > **Community Contributions Welcome**  
 
-`sovereign-sieve` is a lightweight Python utility implementing the Sieve-and-Sign Pattern.
+`sovereign-sdk-sieve` is a lightweight Python utility implementing the Sieve-and-Sign Pattern.
 
 The package exists to reduce Prose Tax by transforming unstructured conversational payloads into deterministic, machine-readable structures before they cross an ingestion boundary.
 
@@ -30,7 +30,7 @@ This increases:
 * Context window pressure
 * Operational cost
 
-`sovereign-sieve` minimizes these costs by extracting structured signals and removing unnecessary narrative content.
+`sovereign-sdk-sieve` minimizes these costs by extracting structured signals and removing unnecessary narrative content.
 
 ## Related Concepts
 
@@ -41,7 +41,7 @@ This increases:
 
 ## Installation
 
-`pip install sovereign-sieve`
+`pip install sovereign-sdk-sieve`
 
 ## Repository
 
@@ -49,4 +49,4 @@ This increases:
 
 ## Package
 
-[PyPI Project](https://pypi.org/project/sovereign-sieve/)
+[PyPI Project](https://pypi.org/project/sovereign-sdk-sieve/)
