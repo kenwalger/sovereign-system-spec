@@ -1,8 +1,8 @@
 title: Sovereign Systems Specification
 description: Open architecture specification for provenance-aware AI systems and institutional memory.
 
-url: "https://kenwalger.github.io"
-baseurl: "/sovereign-system-spec"
+url: "https://sovereignplatform.dev"
+baseurl: ""
 
 theme: jekyll-theme-minimal
 
