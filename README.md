@@ -27,6 +27,7 @@ The Sovereign SDK provides reference implementations of key Sovereign Systems pa
 
 ### Planned Components
 
+* [sovereign-sdk-audit]({{ site.baseurl}}/sdk/sovereign-sdk-audit.html) - Audit package generation, provenance reconstruction, cost attribution, chain-of-custody reporting, and compliance-oriented evidence exports built on top of forensic receipts and reasoning ledgers.
 * [sovereign-sdk-vault]({{ site.baseurl }}/sdk/sovereign-sdk-vault.html) — Long-term sovereign memory infrastructure and structured knowledge custody.
 
 ---
