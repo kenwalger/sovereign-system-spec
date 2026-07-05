@@ -1,5 +1,11 @@
 # Sovereign Systems Specification & Glossary
 
+Most AI systems attempt to establish trust during retrieval.
+
+Sovereign Systems establishes trust during ingestion.
+
+The result is lower retrieval cost, stronger provenance, and infrastructure that remains verifiable even as models change.
+
 > **Origin and Scope:**  
 > The terms, patterns, and diagrams in this document were first formalized as part of the Sovereign Systems Specification by Ken W. Alger in 2026. They describe architectural approaches to local-first AI systems, deterministic context engineering, data provenance, and operator-owned computation.
 A formalized, opinionated framework for local-first AI infrastructure, data provenance, and deterministic context engineering.

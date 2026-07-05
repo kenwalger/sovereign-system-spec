@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: sovereign-sdk-audit
 sdk_name: sovereign-sdk-audit
@@ -8,7 +7,6 @@ sdk_status: Planned
 sdk_package: TBD
 
 # Every step you take.
-
 ---
 
 # sovereign-sdk-audit
