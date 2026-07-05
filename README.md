@@ -76,7 +76,7 @@ The objective is resilient, operator-controlled computation that remains underst
 
 ## I. The Cost & Data Flow Vector
 - **The Audit Tax:** The operational, engineering, and compute overhead required to capture, structure, and verify the multi-step execution logs of autonomous AI agents. Unlike traditional deterministic system logging, auditing non-deterministic LLM transactions requires cryptographic validation (such as signed forensic receipts) to guarantee data integrity, satisfy compliance frameworks, and mathematically prove that an agent's runtime parameters were not modified or hijacked mid-flight.
-- **[The Prose Tax]({{ site.baseurl}}/terms/prose-tax.html):** The financial and computational premium paid to cloud LLMs to process conversational boilerplate, formatting, and non-essential semantic structure.
+- **[The Prose Tax]({{ site.baseurl}}/terms/prose-tax.html):** The financial and computational premium paid when meaning is conveyed inefficiently, requiring additional processing to determine intent, relevance, or operational significance.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
 - **The Infrastructure Tax:** _See also The Cloud Tax_ The hidden, compounding operational costs, platform lock-in, and unpredictable billing curves associated with relying entirely on proprietary cloud APIs instead of local silicon.
 - **[The Observer's Tax]({{ site.baseurl}}/terms/observer-tax.html):** The systematic performance, computational latency, and storage overhead introduced by instrumenting a local-first architecture for deterministic integrity. It manifests in two distinct phases:

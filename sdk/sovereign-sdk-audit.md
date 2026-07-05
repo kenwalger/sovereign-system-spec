@@ -11,9 +11,9 @@ sdk_package: TBD
 
 # sovereign-sdk-audit
 
-> **Status:** Planned
-> **Target Release:** TBD
-> **Community Contributions Welcome**
+> **Status:** Planned  
+> **Target Release:** TBD  
+> **Community Contributions Welcome**  
 
 `sovereign-sdk-audit` provides reporting, auditability, and evidence reconstruction services for Sovereign Systems architectures.
 
