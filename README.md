@@ -128,6 +128,8 @@ The objective is resilient, operator-controlled computation that remains underst
 - **The Local Brain:** The design pattern of wrapping optimized, heavily compressed local text schemas inside specialized Small Language Models (SLMs) to completely bypass cloud API network latencies and variable billing curves.
 - **Intent-Based Namespace Exposure (Pre-Flight Classifier):** An optimization strategy where a lightweight, localized semantic router evaluates a user’s intent before any tools are initialized. Instead of exposing an entire unified list of available tools to the context window ($O(N)$ overhead), the classifier restricts visibility to a highly targeted, relevant namespace ($O(\text{relevant})$), maintaining a lean context profile and preventing tool selection dilution.
 - **Event-Driven Reflection Trigger:** A mechanism that executes complex secondary context processing (such as causal indexing or linking) only when specific structural signatures (e.g., system error states, resolution markers) are detected within an incoming data payload. This replaces expensive, continuous schedules with localized, signal-based orchestration.
+- **[Memory as Infrastructure]({{ site.baseurl}}/terms/memory-as-infrastructure.html)** — The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature or transcript cache.
+- **Transcript-Centric Memory** — The anti-pattern of treating prior chat messages as durable memory by replaying conversation history rather than indexing structured, retrievable state.
 
 ---
 
@@ -156,8 +158,6 @@ The objective is resilient, operator-controlled computation that remains underst
 
 ## VII. Emerging Field Terms
 
-- **Transcript-Centric Memory** — The anti-pattern of treating prior chat messages as durable memory by replaying conversation history rather than indexing structured, retrievable state.
-- **[Memory as Infrastructure]({{ site.baseurl}}/terms/memory-as-infrastructure.html)** — The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature or transcript cache.
 - **Power Grid for Reasoning** — A metaphor for memory systems that provide stable, governed, reusable context to dependent agents.
 - **Convergence Gate** — An asynchronous coherence mechanism that reconciles independently processed memory, retrieval, or reasoning paths before they influence downstream action.
 - **Context Hydration:** The runtime process of inflating compressed, token-compacted, or content-addressed state schemas back into human-readable text strings within an LLM inference window. 
@@ -167,6 +167,7 @@ The objective is resilient, operator-controlled computation that remains underst
 - **Sift/Sieve Tiering** — A hybrid filtering model where low-cost structural filtering occurs first, followed by higher-fidelity semantic evaluation only when needed.
 - **[Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html):** The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing *at the exact point of ingestion* before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.
   - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
+- **Evidence Boundary** - The observable limit of information available to a human or machine at the moment a decision, retrieval operation, or inference occurs. Evidence Boundaries are shaped by access controls, indexing, licensing, retention policies, network visibility, and other constraints that determine what information can contribute to an outcome.
 
 ---
 
