@@ -130,6 +130,8 @@ The objective is resilient, operator-controlled computation that remains underst
 - **Event-Driven Reflection Trigger:** A mechanism that executes complex secondary context processing (such as causal indexing or linking) only when specific structural signatures (e.g., system error states, resolution markers) are detected within an incoming data payload. This replaces expensive, continuous schedules with localized, signal-based orchestration.
 - **[Memory as Infrastructure]({{ site.baseurl}}/terms/memory-as-infrastructure.html)** — The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature or transcript cache.
 - **Transcript-Centric Memory** — The anti-pattern of treating prior chat messages as durable memory by replaying conversation history rather than indexing structured, retrievable state.
+ **[Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html):** The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing *at the exact point of ingestion* before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.
+  - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
 
 ---
 
@@ -165,8 +167,7 @@ The objective is resilient, operator-controlled computation that remains underst
 - **Hydration Latency:** The specific reading and compute delay incurred during the hydration process, caused by un-optimized database lookups, inline signature verification loops, or heavy string manipulation immediately preceding an inference turn.
 - **Federated Gateway** — A distributed boundary model where multiple sovereign systems expose controlled access through governed local interfaces rather than centralized context pooling.
 - **Sift/Sieve Tiering** — A hybrid filtering model where low-cost structural filtering occurs first, followed by higher-fidelity semantic evaluation only when needed.
-- **[Write-Side Custody]({{ site.baseurl}}/terms/write-side-custody.html):** The architectural discipline of enforcing structural validation, cryptographic signing, and metadata parsing *at the exact point of ingestion* before data ever commits to long-term storage or vector memory. It asserts that data integrity and causal lineage cannot be retroactively engineered on the read-side; if context is not bound and protected at the front gate, downstream retrieval is fundamentally compromised.
-  - **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
+-
 - **Evidence Boundary** - The observable limit of information available to a human or machine at the moment a decision, retrieval operation, or inference occurs. Evidence Boundaries are shaped by access controls, indexing, licensing, retention policies, network visibility, and other constraints that determine what information can contribute to an outcome.
 
 ---
