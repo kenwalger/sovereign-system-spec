@@ -12,6 +12,14 @@ A formalized, opinionated framework for local-first AI infrastructure, data prov
 
 ---
 
+## Working Demonstrations
+
+Explore reference implementations that bring the Sovereign Systems Specification to life.
+
+[View the Demos]({{ site.baseurl }}/demos/index.html)
+
+---
+
 ### 🗺️ System Documentation
 - **Sovereign Systems Glossary** — Core definitions of the five sovereign vectors.
 - **[Architecture & Execution Framework](./ARCHITECTURE.md)** — Visual blueprints, pipeline data flows, and runtime orchestration patterns for local silicon.
