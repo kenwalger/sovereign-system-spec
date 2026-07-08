@@ -43,7 +43,7 @@ Theory ──> Architecture ──> Implementation ──> Experience
 ---
 
 ## Currently Available
-### [Sovereign Memory Demo](/memory-demo.html)
+### [Sovereign Memory Demo]({{ site.baseurl }}/demos/memory-demo.html)
 *Status:* Released (v1.0.0)
 The flagship reference implementation of the Sovereign Systems Specification. Demonstrates audited institutional memory retrieval with local, tamper-evident transactional ledger custody.
 • *Core Features:* Async context offloading, fail-fast startup boundaries, eager relationship hydration, and isolated production CORS mapping.
