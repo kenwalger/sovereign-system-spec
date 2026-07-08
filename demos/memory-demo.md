@@ -12,9 +12,9 @@ It demonstrates a simple, foundational thesis:
 ## Ecosystem Coverage
 
 ### SDK Components (Memory Demo Boundary) 
-
+  
 | Component | Status | Role in Demo |
-| :--- | :---: | :--- |
+| --------- | ------ | ------------ |
 | `sovereign-sdk-sensor` | ❌ | Not applicable (uses static file-based dataset service) |
 | `sovereign-sdk-edge` | ❌ | Not applicable for bounded local-first memory store |
 | `sovereign-sdk-sieve` | ✅ | Context minimization and conversational token reduction |
