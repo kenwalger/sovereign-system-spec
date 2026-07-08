@@ -33,20 +33,25 @@ It demonstrates a simple, foundational thesis:
 
 ---
 
-# User Experience Lifecycle
+## User Experience Lifecycle
 
 The four-panel React front-end workspace structures the developer interaction flow to make data custody completely transparent:
 
-```text
-  [1. Input Question Panel]
-             ↓
-  [2. Evidence & Provenance Panel] (Context is fetched & minimized first)
-             ↓
-  [3. Answer Generation Panel]     (Response is mapped securely to evidence)
-             ↓
-  [4. Forensic Receipt Panel]      (Cryptographic verification metadata)
+```mermaid
+graph TD
+    Panel1[1. Input Question Panel<br><i>User submits natural prose query</i>] 
+    --> Panel2[2. Evidence & Provenance Panel<br><i>Context is fetched, minimized, & checked via Airlock first</i>]
+    
+    Panel2 --> Panel3[3. Answer Generation Panel<br><i>Response is calculated & mapped strictly to evidence</i>]
+    
+    Panel3 --> Panel4[4. Forensic Receipt Panel<br><i>Cryptographic validation & Prose Tax metrics displayed</i>]
 
+    style Panel1 fill:#f9f9f9,stroke:#333,stroke-width:1px
+    style Panel2 fill:#eff6ff,stroke:#378ADD,stroke-width:2px
+    style Panel3 fill:#f0fdf4,stroke:#1D9E75,stroke-width:2px
+    style Panel4 fill:#fffbeb,stroke:#BA7517,stroke-width:2px
 ```
+
 Every response guarantees traceability, showing a reviewer exactly how a conclusion was arrived at, what raw data blocks were extracted, and the precise token tracking savings scored.
 
 ## Hardened SDK Execution Flow
@@ -70,11 +75,13 @@ graph TD
 ```
 
 *Note: The local database state must flush and commit successfully before appending to the external ledger, completely preventing orphaned ledger blocks in concurrent write environments.*
-# Interactive Onboarding Queries
+
+## Interactive Onboarding Queries
 Visitors can experience the twin narrative paths of the demo—historical accuracy and token minimization metrics—using these recommended prompts:
  1. **Pinpoint Entity Verification:** *“Who is Fido?”*
  2. **Contextual Traceability:** *“What evidence connects Fido to the Miller family?”*
  3. **Long-Context Optimization Analysis:** *“Summarize all real estate transactions and properties for the John Miller household in 1908.”*
-# Repository Target
+
+## Repository Target
 The full source code, virtual environment tooling (uv), automated pytest suites, and configuration invariants are available at:
 https://github.com/kenwalger/sovereign-memory-demo
