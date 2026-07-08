@@ -9,9 +9,10 @@ It demonstrates a simple, foundational thesis:
 
 ---
 
-# Ecosystem Coverage
+## Ecosystem Coverage
 
-## SDK Components (Memory Demo Boundary)
+### SDK Components (Memory Demo Boundary) 
+
 | Component | Status | Role in Demo |
 | :--- | :---: | :--- |
 | `sovereign-sdk-sensor` | ❌ | Not applicable (uses static file-based dataset service) |
@@ -23,7 +24,7 @@ It demonstrates a simple, foundational thesis:
 
 ---
 
-## Specification Concepts Demonstrated
+### Specification Concepts Demonstrated
 - **Memory as Infrastructure:** Decoupling lookups from trust.
 - **Digital Attic:** Managing historic records with pristine, immutable structures.
 - **Forensic Receipt:** Generating tamper-evident SHA-256 validation envelopes.
@@ -33,7 +34,7 @@ It demonstrates a simple, foundational thesis:
 
 ---
 
-## User Experience Lifecycle
+### User Experience Lifecycle
 
 The four-panel React front-end workspace structures the developer interaction flow to make data custody completely transparent:
 
@@ -54,7 +55,7 @@ graph TD
 
 Every response guarantees traceability, showing a reviewer exactly how a conclusion was arrived at, what raw data blocks were extracted, and the precise token tracking savings scored.
 
-## Hardened SDK Execution Flow
+### Hardened SDK Execution Flow
 To ensure high-performance concurrent request processing and maintain a complete audit guarantee, the backend architecture handles data sequentially via a strict, non-blocking execution chain:
 
 ```mermaid
