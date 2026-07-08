@@ -38,6 +38,14 @@ The Sovereign SDK provides reference implementations of key Sovereign Systems pa
 
 ---
 
+## Working Demonstrations
+
+Explore reference implementations that bring the Sovereign Systems Specification to life.
+
+➡️ [View the Demos]({{ site.baseurl }}/demos/index.html)
+
+---
+
 ## Sovereign Architectural Posture
 
 Sovereign Systems are designed around the principle that computation is a finite operational resource, not an infinitely scalable abstraction.
