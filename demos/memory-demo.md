@@ -85,4 +85,4 @@ Visitors can experience the twin narrative paths of the demo—historical accura
 
 ## Repository Target
 The full source code, virtual environment tooling (uv), automated pytest suites, and configuration invariants are available at:
-https://github.com/kenwalger/sovereign-memory-demo
+[https://github.com/kenwalger/sovereign-memory-demo](https://github.com/kenwalger/sovereign-memory-demo)
