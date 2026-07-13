@@ -36,7 +36,7 @@ A Sovereign Edge is not just a boundary for data privacy; it is a boundary for r
 
 The current cloud-default AI paradigm often ignores the thermodynamic realities of computation. Routing trivial, localized agentic loops, minor data-validation pipelines, and edge-level system orchestrations to gigawatt-scale cloud data centers is a fundamentally inefficient structural pattern.  
 
-Sovereignty means matching the physical scale of the compute to the logical scale of the task. By running highly quantized, task-specific Small Language Models (SLMs) on localized, low-power hardware—such as compact edge devices, local workstations, or network-attached nodes—we reduce unnecessary data movement and minimize resource waste. We do not need a water-cooled supercomputer to parse a local sensor stream.  
+Sovereignty means matching the physical scale of the compute to the logical scale of the task. By running highly quantized, task-specific Small Language Models (SLMs) on localized, low-power hardware, such as compact edge devices, local workstations, or network, attached nodes—we reduce unnecessary data movement and minimize resource waste. We do not need a water-cooled supercomputer to parse a local sensor stream.  
 
 ## Planned Capabilities
 
