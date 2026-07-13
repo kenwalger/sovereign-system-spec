@@ -30,6 +30,14 @@ Deploying AI workflows and structural data pipelines to field environments expos
 
 `sovereign-sdk-edge` solves this by introducing zero-dependency, local-first primitives that structure, clean, and snapshot context directly on the silicon where it is captured.
 
+### The Ecological Dimension: Thermodynamic Sovereignty
+
+A Sovereign Edge is not just a boundary for data privacy; it is a boundary for resource efficiency.
+
+The current cloud-default AI paradigm is thermodynamically unsustainable. Routing trivial, localized agentic loops, minor data-validation pipelines, and edge-level system orchestrations to gigawatt-scale cloud data centers is a fundamentally inefficient structural pattern.
+
+Sovereignty means aligning the physical scale of the compute with the logical scale of the task. By running highly quantized, task-specific Small Language Models (SLMs) on localized, low-power hardware—such as compact edge devices, local workstations, or network-attached nodes—we reduce unnecessary network travel and minimize resource waste. We do not need a water-cooled supercomputer to parse a local sensor stream.
+
 ## Planned Capabilities
 
 ### The Sieve Heuristics Engine
