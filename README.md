@@ -170,7 +170,7 @@ The objective is resilient, operator-controlled computation that remains underst
 
 - **Power Grid for Reasoning** — A metaphor for memory systems that provide stable, governed, reusable context to dependent agents.
 - **Convergence Gate** — An asynchronous coherence mechanism that reconciles independently processed memory, retrieval, or reasoning paths before they influence downstream action.
-- **Context Hydration:** The runtime process of inflating compressed, token-compacted, or content-addressed state schemas back into human-readable text strings within an LLM inference window. 
+- **[Context Hydration]({{ site.baseurl}}/terms/context-hydration.html):** The runtime process of inflating compressed, token-compacted, or content-addressed state schemas back into human-readable text strings within an LLM inference window. 
 - **Hydration Boundary:** The execution perimeter where cold, cryptographically signed ledger blocks are validated out-of-band and approved for expansion into active session memory. It separates the immutable, content-addressed storage layer from the volatile, probabilistic reasoning layer.
 - **Hydration Latency:** The specific reading and compute delay incurred during the hydration process, caused by un-optimized database lookups, inline signature verification loops, or heavy string manipulation immediately preceding an inference turn.
 - **Federated Gateway** — A distributed boundary model where multiple sovereign systems expose controlled access through governed local interfaces rather than centralized context pooling.
