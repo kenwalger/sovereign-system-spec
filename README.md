@@ -24,6 +24,7 @@ Explore reference implementations that bring the Sovereign Systems Specification
 - **Sovereign Systems Glossary** — Core definitions of the five sovereign vectors.
 - **[Architecture & Execution Framework](./ARCHITECTURE.md)** — Visual blueprints, pipeline data flows, and runtime orchestration patterns for local silicon.
 - **[Sovereign Inference Patterns](./PATTERNS.md)** — Repeatable architectural primitives for deterministic, cost-aware, and high-integrity AI inference systems.
+- **[Visual Language](https://sovereignplatform.dev/visuals/style_guide.html)** — The color palette, phase mapping, and design tokens that keep every diagram across the specification visually consistent.
 
 ## Sovereign SDK
 
