@@ -3,6 +3,8 @@ layout: default
 title: Escalation Boundary
 term_name: Escalation Boundary
 term_description: The architectural threshold at which a workload is delegated from one computational layer to a more capable execution environment.
+phase: "red"
+phase_label: Escalation
 
 # Don't call us.
 # We'll call you.

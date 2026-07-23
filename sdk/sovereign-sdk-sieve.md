@@ -5,6 +5,8 @@ sdk_name: sovereign-sdk-sieve
 sdk_description: Zero-dependency utility implementing the Sieve-and-Sign Pattern and reducing Prose Tax within AI systems.
 sdk_status: Active
 sdk_package: https://pypi.org/project/sovereign-sdk-sieve/
+phase: "1"
+phase_label: Optimization
 
 # I don't want clever conversation
 ---

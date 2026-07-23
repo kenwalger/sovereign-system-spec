@@ -5,6 +5,8 @@ sdk_name: sovereign-sdk-audit
 sdk_description: Audit package generation, provenance reconstruction, and evidence reporting for Sovereign Systems implementations.
 sdk_status: Planned
 sdk_package: TBD
+phase: "2"
+phase_label: Governance
 
 # Every step you take.
 ---

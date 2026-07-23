@@ -3,6 +3,8 @@ layout: default
 title: Prose Tax
 term_name: Prose Tax
 term_description: The financial and computational premium paid when meaning is conveyed inefficiently, requiring additional processing to determine intent, relevance, or operational significance.
+phase: "1"
+phase_label: Optimization
 
 # I am the entertainer
 # And I've had to pay my price

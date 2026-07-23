@@ -1,3 +1,12 @@
+---
+layout: default
+title: Sovereign Memory Demo
+phase: "3"
+phase_label: Memory
+
+# Another working day has ended
+---
+
 # Sovereign Memory Demo
 ## Reference Implementation
 

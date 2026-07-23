@@ -3,6 +3,9 @@ layout: default
 title: Cognitive Estate
 term_name: Cognitive Estate
 term_description: The collective sum of an individual or enterprise's intellectual history, private conversations, and reasoning workflows, framed as a sovereign knowledge asset.
+phase: "3"
+phase_label: Memory
+
 ---
 
 # Cognitive Estate

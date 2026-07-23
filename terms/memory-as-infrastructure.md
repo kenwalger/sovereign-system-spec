@@ -3,6 +3,8 @@ layout: default
 title: Memory as Infrastructure
 term_name: Memory as Infrastructure
 term_description: The treatment of agent memory as a load-bearing architectural layer rather than a convenience feature, transcript cache, or passive retrieval store.
+phase: "3"
+phase_label: Memory
 
 # We all end up in the same room.
 # Waiting for our lives to begin.

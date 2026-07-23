@@ -4,6 +4,9 @@ title: sovereign-sdk-ledger
 sdk_name: sovereign-sdk-ledger
 sdk_description: Append-only provenance ledger for preserving forensic receipts, reasoning lineage, and cryptographically verifiable execution history.
 sdk_status: Active
+sdk_package: https://pypi.org/project/sovereign-sdk-ledger/
+phase: "2"
+phase_label: Evidence
 
 # Every claim you make
 ---

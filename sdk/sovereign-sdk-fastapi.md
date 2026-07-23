@@ -5,6 +5,8 @@ sdk_name: sovereign-sdk-fastapi
 sdk_description: FastAPI and ASGI middleware providing transparent provenance capture and forensic auditing.
 sdk_status: Active
 sdk_package: https://pypi.org/project/sovereign-sdk-fastapi/
+phase: "2"
+phase_label: Governance
 
 # Another working day has ended
 ---

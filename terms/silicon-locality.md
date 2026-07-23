@@ -3,6 +3,8 @@ layout: default
 title: Silicon Locality
 term_name: Silicon Locality
 term_description: The architectural principle that computation should execute as close as possible to the owned physical hardware where data is generated, stored, or governed.
+phase: "boundary"
+phase_label: Framework
 ---
 
 # Silicon Locality

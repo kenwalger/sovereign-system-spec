@@ -3,6 +3,8 @@ layout: default
 title: Sovereign Synapse
 term_name: Sovereign Synapse
 term_description: The architectural transition point where data custody and reasoning execution become unified within a local system boundary.
+phase: "boundary"
+phase_label: Framework
 ---
 
 # Sovereign Synapse

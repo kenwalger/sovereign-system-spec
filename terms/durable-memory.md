@@ -3,6 +3,9 @@ layout: default
 title: Durable Memory
 term_name: Durable Memory
 term_description: The layer that decides what an agentic system intentionally preserves beyond a single task; defined by the write-boundary judgment, not by the technology that holds the bytes.
+phase: "3"
+phase_label: Memory
+
 
 # This is the time to remember
 ---

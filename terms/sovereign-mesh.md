@@ -3,6 +3,8 @@ layout: default
 title: Sovereign Mesh
 term_name: Sovereign Mesh
 term_description: A federation of Sovereign Nodes that share state, verify provenance, and coordinate intelligence while preserving local custody and authority.
+phase: "boundary"
+phase_label: Framework
 
 # Hidden Notes
 # One for all.

@@ -1,0 +1,21 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Sovereign phase pills */
+.phase {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 6px;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  color: #fff;
+  vertical-align: middle;
+}
+.phase-1        { background: #378ADD; } /* Capture / Classification / Optimization */
+.phase-2        { background: #1D9E75; } /* Evidence / Provenance / Governance */
+.phase-3        { background: #BA7517; } /* Memory / Reasoning */
+.phase-boundary { background: #6B7280; } /* Conceptual boundary / framework */
+.phase-red      { background: #C0392B; } /* Failures, escalations, violations */

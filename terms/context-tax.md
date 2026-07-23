@@ -3,6 +3,9 @@ layout: default
 title: Context Tax
 term_name: Context Tax
 term_description: The latency, memory pressure, and reasoning degradation caused by passing excessively large or weakly relevant context windows into model runtimes.
+phase: "3"
+phase_label: Reasoning
+
 ---
 
 # Context Tax

@@ -4,6 +4,9 @@ title: sovereign-sdk-sensor
 sdk_name: sovereign-sdk-sensor
 sdk_description: Lightweight cryptographic envelope engine for MicroPython and embedded environments, enforcing Write-Side Custody at the point of data genesis.
 sdk_status: Active
+sdk_package: https://pypi.org/project/sovereign-sdk-sensor/
+phase: "1"
+phase_label: Capture
 
 # I hear the talking of the machine
 ---

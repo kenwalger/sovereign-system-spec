@@ -3,12 +3,17 @@ layout: default
 title: Forensic Receipt
 term_name: Forensic Receipt
 term_description: A deterministic, immutable identifier linking an AI action directly to its causal and historical upstream data footprint.
+phase: "2"
+phase_label: Evidence
 
 # Every breath you take.
 # Every move you make.
 ---
 
 # Forensic Receipt
+
+{% include phase-pill.html %}
+
 
 ## Definition
 

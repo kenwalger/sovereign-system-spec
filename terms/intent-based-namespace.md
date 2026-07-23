@@ -3,6 +3,8 @@ layout: default
 title: Intent-Based Namespace Exposure
 term_name: Intent-Based Namespace Exposure
 term_description: An optimization and security pattern that restricts an autonomous agent’s available tool infrastructure to a deterministic, token-scoped namespace based on pre-evaluated session intent.
+phase: "1"
+phase_label: Classification
 ---
 
 # Intent-Based Namespace Exposure

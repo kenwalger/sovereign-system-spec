@@ -3,6 +3,8 @@ layout: default
 title: Capability Gradient
 term_name: Capability Gradient
 term_description: The ordered hierarchy of computational resources available within a system, ranging from constrained local devices to high-capability reasoning environments.
+phase: "boundary"
+phase_label: Framework
 
 # Take a look at me now.
 ---

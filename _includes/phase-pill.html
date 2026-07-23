@@ -1,0 +1,1 @@
+{% if page.phase %}<div class="phase-tag"><span class="phase phase-{{ page.phase }}">{% if page.phase == "boundary" %}{{ page.phase_label | default: "Framework" }}{% else %}Phase {{ page.phase }}{% if page.phase_label %} - {{ page.phase_label }}{% endif %}{% endif %}</span></div>{% endif %}

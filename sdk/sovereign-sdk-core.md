@@ -5,6 +5,8 @@ sdk_name: sovereign-sdk-core
 sdk_description: Core provenance, validation, and cryptographic signing engine for Sovereign Systems implementations.
 sdk_status: Active
 sdk_package: https://pypi.org/project/sovereign-sdk-core/
+phase: "2"
+phase_label: Evidence
 
 # Driven to the edge of town
 ---

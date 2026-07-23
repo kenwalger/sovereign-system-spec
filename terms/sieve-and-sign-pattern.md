@@ -3,6 +3,8 @@ layout: default
 title: Sieve-and-Sign Pattern
 term_name: Sieve-and-Sign Pattern
 term_description: An architectural pipeline pattern where unstructured input is filtered for semantic noise and immediately stamped with cryptographic provenance before entering long-term memory.
+phase: "2"
+phase_label: Governance
 ---
 
 # Sieve-and-Sign Pattern

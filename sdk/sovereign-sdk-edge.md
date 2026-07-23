@@ -3,7 +3,10 @@ layout: default
 title: sovereign-sdk-edge
 sdk_name: sovereign-sdk-edge
 sdk_description: Planned low-footprint constraint engine and structural parsing primitives optimized for edge infrastructure and local-first context sieving.
-sdk_status: Planned
+sdk_status: Active
+sdk_package: https://pypi.org/project/sovereign-sdk-edge/
+phase: "1"
+phase_label: Classification
 
 # Who's gonna drive you home
 ---

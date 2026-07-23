@@ -3,6 +3,8 @@ layout: default
 title: Point of Genesis
 term_name: Point of Genesis
 term_description: The precise physical boundary where an analog event first becomes digital state and enters a sovereign system.
+phase: "1"
+phase_label: Capture
 
 # Hidden Notes
 # It’s gonna get better.

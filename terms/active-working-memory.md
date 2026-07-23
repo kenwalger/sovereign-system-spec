@@ -3,6 +3,8 @@ layout: default
 title: Active Working Memory
 term_name: Active Working Memory
 term_description: The assembled execution state that supports a single task, sitting between durable storage and the context window; the RAM layer of an agentic memory hierarchy.
+phase: "3"
+phase_label: Memory
 
 # I don't mind you comin' here
 # And wastin' all my time

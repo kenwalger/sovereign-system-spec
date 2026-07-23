@@ -1,3 +1,6 @@
+
+
+
 ---
 layout: default
 title: Retrieval Tax

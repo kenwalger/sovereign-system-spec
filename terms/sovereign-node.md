@@ -3,6 +3,8 @@ layout: default
 title: Sovereign Node
 term_name: Sovereign Node
 term_description: An independently operable computational unit that maintains local custody of its memory, identity, execution policies, and decision boundaries.
+phase: "boundary"
+phase_label: Framework
 
 # No one else can tell you what it means.
 ---

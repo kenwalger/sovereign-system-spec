@@ -3,6 +3,9 @@ layout: default
 title: Context Hydration
 term_name: Context Hydration
 term_description: The runtime process of inflating compressed, token-compacted, or content-addressed state schemas back into human-readable text strings within an LLM inference window.
+phase: "boundary"
+phase_label: Boundary
+
 
 # Images of sorrow
 ---

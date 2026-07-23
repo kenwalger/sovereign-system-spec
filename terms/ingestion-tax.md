@@ -3,6 +3,8 @@ layout: default
 title: Ingestion Tax
 term_name: Ingestion Tax
 term_description: The fixed, upfront computational, processing, and token cost paid at the point of data entry to enforce structural validation, semantic filtering, and cryptographic signature generation.
+phase: "1"
+phase_label: Capture
 ---
 
 # Ingestion Tax
