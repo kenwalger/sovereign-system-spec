@@ -12,7 +12,7 @@ phase_label: Escalation
 
 # Escalation Boundary
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

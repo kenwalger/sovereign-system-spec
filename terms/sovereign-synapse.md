@@ -9,7 +9,7 @@ phase_label: Framework
 
 # Sovereign Synapse
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

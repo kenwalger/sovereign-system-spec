@@ -9,7 +9,7 @@ phase_label: Governance
 
 # Sieve-and-Sign Pattern
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

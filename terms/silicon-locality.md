@@ -9,7 +9,7 @@ phase_label: Framework
 
 # Silicon Locality
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

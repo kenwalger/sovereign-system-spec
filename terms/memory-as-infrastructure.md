@@ -12,7 +12,7 @@ phase_label: Memory
 
 # Memory as Infrastructure
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

@@ -12,7 +12,7 @@ phase_label: Memory
 
 # Durable Memory
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

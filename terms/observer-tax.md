@@ -9,7 +9,7 @@ phase_label: Governance
 
 # Observer's Tax
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

@@ -13,7 +13,7 @@ phase_label: Governance
 
 # sovereign-sdk-fastapi
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 > **Status:** Active  
 > **Released:** June 30, 2026  

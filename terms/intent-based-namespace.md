@@ -9,7 +9,7 @@ phase_label: Classification
 
 # Intent-Based Namespace Exposure
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

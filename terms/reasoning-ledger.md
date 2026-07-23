@@ -9,7 +9,7 @@ phase_label: Provenance
 
 # Reasoning Ledger
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

@@ -16,7 +16,7 @@ phase_label: Capture
 
 # Point of Genesis
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

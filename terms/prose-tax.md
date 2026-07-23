@@ -12,7 +12,7 @@ phase_label: Optimization
 
 # Prose Tax
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

@@ -12,7 +12,7 @@ phase_label: Anti-Pattern
 
 # Digital Attic
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

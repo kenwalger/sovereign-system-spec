@@ -19,7 +19,7 @@ phase_label: Framework
 
 # Sovereign Mesh
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

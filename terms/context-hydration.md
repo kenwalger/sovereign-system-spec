@@ -12,6 +12,8 @@ phase_label: Boundary
 
 # Context Hydration
 
+{% include phase-pill.html %}  
+
 ## Definition
 
 **Context Hydration** is the runtime process of inflating compressed, token-compacted, or content-addressed state schemas back into human-readable text strings within an LLM inference window.

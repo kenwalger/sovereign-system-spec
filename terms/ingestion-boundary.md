@@ -9,7 +9,7 @@ phase_label: Classification
 
 # Ingestion Boundary
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

@@ -10,7 +10,7 @@ phase_label: Memory
 
 # Cognitive Estate
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

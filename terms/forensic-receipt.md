@@ -12,7 +12,7 @@ phase_label: Evidence
 
 # Forensic Receipt
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 

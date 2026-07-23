@@ -9,7 +9,7 @@ phase_label: Governance
 
 # Write-Side Custody
 
-{% include phase-pill.html %}
+{% include phase-pill.html %}  
 
 ## Definition
 
