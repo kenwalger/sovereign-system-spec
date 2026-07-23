@@ -9,6 +9,8 @@ phase_label: Classification
 
 # Ingestion Boundary
 
+{% include phase-pill.html %}
+
 ## Definition
 
 An Ingestion Boundary is the strict structural gate where incoming raw data is parsed, flattened, typed, validated, and prepared before it reaches long-term storage or model runtime.

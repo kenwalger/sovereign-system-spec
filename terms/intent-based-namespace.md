@@ -9,6 +9,8 @@ phase_label: Classification
 
 # Intent-Based Namespace Exposure
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Intent-Based Namespace Exposure is an optimization and security pattern that interceptively restricts an autonomous agent’s available tool infrastructure to a deterministic, token-scoped namespace based on pre-evaluated session intent, rather than exposing an open-ended capabilities list to the active context window.

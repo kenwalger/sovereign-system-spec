@@ -12,6 +12,8 @@ phase_label: Memory
 
 # Durable Memory
 
+{% include phase-pill.html %}
+
 ## Definition
 
 **Durable Memory** is the layer that decides what an agentic system intentionally preserves beyond a single task.

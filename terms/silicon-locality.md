@@ -9,6 +9,8 @@ phase_label: Framework
 
 # Silicon Locality
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Silicon Locality is the architectural principle that computation should execute as close as possible to the owned physical hardware where data is generated, stored, or governed.

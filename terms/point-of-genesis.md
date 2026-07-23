@@ -16,6 +16,8 @@ phase_label: Capture
 
 # Point of Genesis
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Point of Genesis is the precise physical boundary where an analog event first becomes digital state and enters a sovereign system.

@@ -12,6 +12,8 @@ phase_label: Memory
 
 # Memory as Infrastructure
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Memory as Infrastructure is the treatment of agent memory as a load-bearing architectural layer rather than a convenience feature, transcript cache, or passive retrieval store.

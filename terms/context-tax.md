@@ -10,6 +10,8 @@ phase_label: Reasoning
 
 # Context Tax
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Context Tax is the latency, memory pressure, and reasoning degradation caused by passing excessively large or weakly relevant context windows into model runtimes.

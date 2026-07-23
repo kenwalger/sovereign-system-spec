@@ -13,6 +13,8 @@ phase_label: Governance
 
 # sovereign-sdk-audit
 
+{% include phase-pill.html %}
+
 > **Status:** Planned  
 > **Target Release:** TBD  
 > **Community Contributions Welcome**  

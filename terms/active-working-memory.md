@@ -12,6 +12,8 @@ phase_label: Memory
 
 # Active Working Memory
 
+{% include phase-pill.html %}
+
 ## Definition
 
 **Active Working Memory** is the assembled execution state that supports a single task. It sits between durable storage and the context window, gathering retrieved records, tool responses, session state, and planner output into the working set a model will reason over.

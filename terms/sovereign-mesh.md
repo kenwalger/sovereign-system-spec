@@ -19,6 +19,8 @@ phase_label: Framework
 
 # Sovereign Mesh
 
+{% include phase-pill.html %}
+
 ## Definition
 
 A Sovereign Mesh is a federation of Sovereign Nodes that share state, verify provenance, and coordinate intelligence while preserving local custody and authority.

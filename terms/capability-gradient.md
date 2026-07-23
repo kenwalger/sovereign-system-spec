@@ -11,6 +11,8 @@ phase_label: Framework
 
 # Capability Gradient
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Capability Gradient is the ordered hierarchy of computational resources available within a system, ranging from constrained local devices to high-capability reasoning environments.

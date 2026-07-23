@@ -10,6 +10,8 @@ phase_label: Memory
 
 # Cognitive Estate
 
+{% include phase-pill.html %}
+
 ## Definition
 
 A Cognitive Estate is the collective sum of an individual or enterprise's intellectual history, private conversations, reasoning workflows, decisions, and accumulated knowledge.

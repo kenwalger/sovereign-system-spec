@@ -12,6 +12,8 @@ phase_label: Anti-Pattern
 
 # Digital Attic
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Digital Attic is an architectural anti-pattern in agentic memory design where state history, conversational logs, documents, and raw inputs are continuously accumulated in storage systems under the assumption that semantic retrieval can reconstruct operational context when needed.

@@ -10,6 +10,8 @@ term_description: The infrastructure and inference overhead incurred when retrie
 
 # Retrieval Tax
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Retrieval Tax is the infrastructure and inference overhead incurred when retrieval systems compensate for weak data modeling, poor information architecture, or low-signal knowledge stores.

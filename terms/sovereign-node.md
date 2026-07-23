@@ -11,6 +11,8 @@ phase_label: Framework
 
 # Sovereign Node
 
+{% include phase-pill.html %}
+
 ## Definition
 
 A Sovereign Node is an independently operable computational unit that maintains local custody of its memory, cryptographic identity, execution policies, and decision boundaries without requiring continuous dependence on an external control plane.

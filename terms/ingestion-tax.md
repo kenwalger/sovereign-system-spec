@@ -9,6 +9,8 @@ phase_label: Capture
 
 # Ingestion Tax
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Ingestion Tax is the fixed, upfront computational, processing, and token cost paid at the point of data entry to enforce structural validation, semantic filtering, and cryptographic signature generation.

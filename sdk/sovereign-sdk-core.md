@@ -13,6 +13,8 @@ phase_label: Evidence
 
 # sovereign-sdk-core
 
+{% include phase-pill.html %}
+
 > **Status:** Active  
 > **Released:** June 30, 2026  
 > **Community Contributions Welcome**  

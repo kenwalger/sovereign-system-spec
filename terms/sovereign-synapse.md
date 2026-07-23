@@ -9,6 +9,8 @@ phase_label: Framework
 
 # Sovereign Synapse
 
+{% include phase-pill.html %}
+
 ## Definition
 
 A Sovereign Synapse is the architectural transition point where data custody, context management, and reasoning execution become fully unified within a local system boundary.

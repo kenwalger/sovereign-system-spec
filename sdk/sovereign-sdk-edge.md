@@ -13,6 +13,8 @@ phase_label: Classification
 
 # sovereign-sdk-edge
 
+{% include phase-pill.html %}
+
 > **Status:** Active 
 > **Last Updated:** June 30, 2026  
 > **Community Contributions Welcome**  

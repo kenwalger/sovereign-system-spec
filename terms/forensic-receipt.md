@@ -14,7 +14,6 @@ phase_label: Evidence
 
 {% include phase-pill.html %}
 
-
 ## Definition
 
 A Forensic Receipt is a deterministic, immutable, and universally unique identifier (UUID) that links a specific model intent, decision, or action directly to its causal upstream data footprint.

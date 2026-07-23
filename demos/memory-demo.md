@@ -10,6 +10,8 @@ phase_label: Memory
 # Sovereign Memory Demo
 ## Reference Implementation
 
+{% include phase-pill.html %}
+
 The Sovereign Memory Demo is the flagship reference implementation of the Sovereign Systems Specification, built to establish an immutable boundary between probabilistic AI generation and deterministic data auditing. 
 
 It demonstrates a simple, foundational thesis:

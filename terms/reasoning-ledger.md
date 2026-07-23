@@ -9,6 +9,8 @@ phase_label: Provenance
 
 # Reasoning Ledger
 
+{% include phase-pill.html %}
+
 ## Definition
 
 A Reasoning Ledger is a structured, append-only index of contextual state changes, causal candidates, provenance records, and verified reasoning artifacts.

@@ -9,6 +9,8 @@ phase_label: Governance
 
 # Write-Side Custody
 
+{% include phase-pill.html %}
+
 ## Definition
 
 Write-Side Custody is the architectural discipline of enforcing structural validation, cryptographic signing, metadata enrichment, and provenance binding at the exact point of ingestion before data commits to long-term storage.

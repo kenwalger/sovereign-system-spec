@@ -12,6 +12,8 @@ phase_label: Escalation
 
 # Escalation Boundary
 
+{% include phase-pill.html %}
+
 ## Definition
 
 An Escalation Boundary is the architectural threshold at which a workload is delegated from one computational layer to a more capable execution environment.

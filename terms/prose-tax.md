@@ -12,6 +12,8 @@ phase_label: Optimization
 
 # Prose Tax
 
+{% include phase-pill.html %}
+
 ## Definition
 
 **Prose Tax** is the financial and computational premium paid when meaning is conveyed inefficiently, requiring additional processing to determine intent, relevance, or operational significance.

@@ -9,6 +9,8 @@ phase_label: Governance
 
 # Sieve-and-Sign Pattern
 
+{% include phase-pill.html %}
+
 ## Definition
 
 The Sieve-and-Sign Pattern is an architectural pipeline pattern in which unstructured input is aggressively filtered for semantic noise and immediately stamped with cryptographic provenance before entering long-term memory.

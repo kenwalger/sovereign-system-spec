@@ -12,6 +12,8 @@ phase_label: "Long-Term Custody"
 
 # sovereign-sdk-vault
 
+{% include phase-pill.html %}
+
 > **Status:** Planned Component  
 > **Last Updated:** June 2026  
 > **Community Contributions Welcome**  

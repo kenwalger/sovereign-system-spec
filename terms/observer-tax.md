@@ -9,6 +9,8 @@ phase_label: Governance
 
 # Observer's Tax
 
+{% include phase-pill.html %}
+
 ## Definition
 
 The Observer's Tax is the systematic performance, latency, storage, and computational overhead introduced by instrumenting a local-first architecture for deterministic integrity, provenance verification, and auditability.
