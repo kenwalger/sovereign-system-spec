@@ -193,6 +193,10 @@ An architectural anti-pattern in agentic memory design where state history, conv
 - **The Failure Mode:** Because retrieval is based purely on text similarity (distance in embedding space) rather than explicit causal or temporal tracing, the agent loses critical, non-semantic structural history. When a system failure or complex multi-step state mutation occurs, a [Digital Attic](./terms/digital-attic.html) returns fragments that are textually *related* to the query but entirely devoid of the causal lineage, chronological evidence, or validation headers required for deterministic troubleshooting or execution tracking. 
 - **The Sovereign Solution:** Shifting from a storage-first "warehouse" model to a load-bearing **Power Grid** infrastructure model by enforcing strict local [Ingestion Boundaries](./ARCHITECTURE.html#the-ingestion-boundary), executing a [Sieve-and-Sign](./PATTERNS.html#the-sieve-and-sign-pattern) pattern, and committing structured, cryptographically sealed [Forensic Receipts](./PATTERNS.html) rather than raw, ambient prose.
 
+### [Agentic Thrashing]({{ site.baseurl }}/terms/agentic-thrashing.html)
+An architectural failure mode where an orchestrator loads an un-sieved, contradictory working set into Active Working Memory, forcing the model to spend inference cycles reconciling stale inputs rather than executing task logic.
+
+
 ---
 
 ## IX. Computational Taxes (Expanded)
