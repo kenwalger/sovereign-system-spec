@@ -121,6 +121,19 @@ A computer does not load its entire storage device into memory to open a text ed
 
 Capacity is not relevance.
 
+## Key Failure Mode: Agentic Thrashing
+
+In classical operating systems, **thrashing** occurs when a system spends more time swapping pages between RAM and virtual memory than executing actual process cycles. 
+
+In agentic architectures, [Agentic Thrashing]({{ site.baseurl }}/terms/agentic-thrashing.html) occurs when an application fails to enforce strict eviction policies on Active Working Memory. When stale project states, conflicting constraints, or un-sieved context documents simultaneously occupy the working set, the model's attention mechanism becomes trapped in a loop—spending precious inference cycles attempting to reconcile contradictory inputs rather than reasoning forward on the task.
+
+**Symptoms of Agentic Thrashing:**
+* **Contradictory Output Loops:** The model vacillates between opposing constraints introduced by stale vs. current documents.
+* **Context Tax Inflation:** Exponential growth in token costs without a corresponding increase in task completion accuracy.
+* **Instruction Drift:** The agent forgets initial system instructions because the working set is polluted with high-noise, low-relevance tool outputs.
+
+Active Working Memory prevents agentic thrashing by treating cache invalidation, context sieving, and working set eviction as mandatory orchestrator responsibilities *before* inference begins.
+
 ## Related Terms
 
 * [Memory as Infrastructure]({{ site.baseurl}}/terms/memory-as-infrastructure.html)
