@@ -1,3 +1,92 @@
-feat(spec): deepen provenance metadata across SDK and glossary pages
-The chain of custody extends further than the rendered page.
-Those who trace it back gefar enough will find the origin.
+refactor(spec): align Sovereign Systems around explicit epistemic boundaries
+
+Rework the Sovereign Systems Specification to establish a consistent
+architectural and epistemic model across provenance, custody, memory,
+retrieval, execution, and evidence.
+
+This update clarifies the distinction between what a system observes,
+what it can establish, what it is authorized to persist, what may return
+to active reasoning, and what evidence survives consequential activity.
+
+Major changes include:
+
+- establish the Epistemic Model as the normative foundation beneath the
+  glossary and above the implementation architecture
+- define provenance as evidence of origin, lineage, and transformation
+  rather than a synonym for truth or trust
+- distinguish authority, evidence, relevance, recency, provenance, and
+  lifecycle state as orthogonal dimensions
+- formalize Write-Side Custody as governed admission to durable state
+  rather than signing, schema validation, or ledger immutability
+- redefine Forensic Receipts as structured evidence artifacts associated
+  with consequential events rather than truth certificates
+- constrain Reasoning Ledger claims to observable decision and execution
+  evidence without implying preservation of private model reasoning
+- define Durable Memory as governed long-term state capable of preserving
+  current, historical, corrected, superseded, invalidated, disputed, and
+  unverifiable records
+- redefine Context Hydration as the governed transition from durable state
+  into task-specific Active Working Memory
+- separate candidate discovery, eligibility, adjudication, ranking, and
+  context assembly so retrieval rank cannot manufacture authority
+- make `undetermined` a legitimate epistemic outcome distinct from an
+  empty result or low-confidence winner
+- formalize Active Working Memory as bounded task execution state rather
+  than the model context window itself
+- introduce Context Projection as the explicit boundary determining which
+  subset of working state reaches an inference call
+- redefine Point of Genesis as the earliest defensible boundary where
+  origin evidence can begin, without treating proximity to origin as
+  proof of truth
+- revise Sieve-and-Sign so transformation and cryptographic integrity
+  evidence cannot silently promote epistemic status
+- require derived and model-generated claims to cross Write-Side Custody
+  before promotion into Durable Memory
+- distinguish source provenance from routing provenance
+- require consequential lifecycle changes to affect downstream behavior
+  rather than exist as ignorable metadata
+- treat indexes, embeddings, summaries, caches, and graph projections as
+  derived state subordinate to governed Durable Memory
+- recognize that evidence can degrade as keys, authorities, dependencies,
+  source artifacts, and policies change over time
+- separate immutable historical events from evidence-retention policy so
+  redaction or deletion can occur without rewriting history
+- clarify that locality improves custody, privacy, resilience, latency,
+  and operator control but does not itself establish trust
+- separate intent relevance and namespace exposure from capability and
+  execution authorization
+- require consequential capability enforcement to occur outside model
+  preference
+- normalize architecture and pattern diagrams around a shared visual
+  language for capture, governance, memory, boundaries, and failures
+- expand the architecture from isolated pipelines into explicit read and
+  write lifecycles with custody governing every consequential durable
+  state transition
+- restructure the pattern library around explicit problem, boundary,
+  input, transformation, output, evidence, non-claim, and trade-off
+  contracts
+- align README terminology and project hierarchy with the revised
+  normative model
+- correct remaining term descriptions, cryptographic language, internal
+  links, and specification naming inconsistencies
+
+The resulting specification now follows a single conceptual hierarchy:
+
+  Glossary
+      ↓
+  Epistemic Model
+      ↓
+  Architecture & Execution Framework
+      ↓
+  Sovereign Inference Patterns
+      ↓
+  Reference Implementations / Sovereign SDK
+
+The central invariant is that Sovereign Systems establishes custody
+during ingestion and preserves the evidence required to evaluate trust
+over time.
+
+This change intentionally prioritizes semantic consistency over backward
+compatibility with existing SDK and handbook terminology. Those
+implementations will be migrated separately against the finalized
+specification.
