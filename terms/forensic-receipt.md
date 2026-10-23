@@ -336,6 +336,7 @@ A verifier may ask:
 8. Are referenced evidence artifacts still available?
 9. Do authority and policy references resolve?
 10. Has later evidence superseded, corrected, invalidated, or weakened the claim?
+11. If the receipt supports a negative claim, does it reference a [Coverage Assertion](coverage-assertion.html), and does that assertion verify as `supported` for the claim class and interval?
 
 Different questions may produce different answers.
 
@@ -344,6 +345,8 @@ For example, a receipt may be cryptographically valid while its governing policy
 The appropriate state is not "verification failed."
 
 The receipt remains valid historical evidence while the event it documents may no longer represent current governing state.
+
+Question 11 applies only to receipts that support a negative claim. A receipt attesting to an observed event carries no completeness obligation.
 
 ## Forensic Receipts and Reproducibility
 
@@ -410,6 +413,18 @@ Custody enforces the admission policy.
 The receipt preserves evidence about what the custody boundary observed and decided.
 
 > **Custody enforces. The ledger witnesses. The receipt preserves evidence.**
+
+## Relationship to Coverage Assertions
+
+A Forensic Receipt supports observation: _this boundary observed X._
+
+It does not, by itself, support coverage: _this boundary was authoritative and complete for class Y during interval Z._
+
+A [Coverage Assertion](coverage-assertion.html) is the distinct, referenceable artifact that evidences coverage, including the custody configuration in force throughout the interval.
+
+A receipt or ledger segment that supports a negative claim should reference the Coverage Assertion it depends on rather than embedding it.
+
+An ordinary receipt needs no Coverage Assertion.
 
 ## Relationship to the Reasoning Ledger
 
@@ -512,6 +527,7 @@ A conforming design should:
 - avoid treating cryptographic validity as truth or current authority
 - preserve relationships to relevant provenance, policy, authority, and ledger events
 - support independent witnessing or checkpointing when the assurance model requires it
+- distinguish observation from coverage, and require a referenced Coverage Assertion for receipts that support negative claims
 - preserve explicit `unknown` or `unverifiable` states when evidence can no longer be established
 - avoid claiming access to private model reasoning
 - allow retention policy to remove evidence payloads without silently rewriting historical system actions
@@ -524,6 +540,7 @@ The objective is to preserve enough structured evidence that later consumers can
 
 - [Provenance](provenance.html)
 - [Write-Side Custody](write-side-custody.html)
+- [Coverage Assertion](coverage-assertion.html)
 - [Reasoning Ledger](reasoning-ledger.html)
 - [Durable Memory](durable-memory.html)
 - [Point of Genesis](point-of-genesis.html)

@@ -455,6 +455,18 @@ It is not a truth-detection mechanism.
 
 **Origin:** First formalized in the Sovereign Systems Specification by Ken W. Alger, 2026.
 
+## [Coverage Assertion]({{ site.baseurl}}/terms/coverage-assertion.html)
+
+A referenceable evidence artifact asserting that a defined boundary was authoritative and complete for a class of state or events during a defined interval, supported by evidence of the custody configuration in force throughout that interval.
+
+A receipt supports observation: _this boundary observed X._ A Coverage Assertion supports coverage: _this boundary was complete for class Y during interval Z._
+
+It is required only for receipts or ledger segments that support negative claims, and it verifies to `supported`, `contradicted`, or `undetermined`, never to a producer-set Boolean.
+
+A supported Coverage Assertion is relative to its declared observation resolution and trust anchors. It is not proof of absolute completeness, and it does not by itself establish a negative claim.
+
+**Origin:** Proposed and contributed to the Sovereign Systems Specification by Nicolás Moreno, 2026 ([issue #1](https://github.com/kenwalger/sovereign-system-spec/issues/1), [PR #2](https://github.com/kenwalger/sovereign-system-spec/pull/2)).
+
 ---
 
 # III. Integrity & Provenance
@@ -1119,6 +1131,8 @@ Examples depend on domain, but may include:
 - a sensor system with known coverage showing no qualifying event
 
 The adequacy of negative evidence depends on the completeness and authority of the source.
+
+Where negative evidence is drawn from a boundary's records, that completeness and authority is evidenced by a [Coverage Assertion]({{ site.baseurl}}/terms/coverage-assertion.html) for the boundary, class, and interval, together with event evidence sufficiently complete for the claim.
 
 ## Source Provenance
 

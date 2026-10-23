@@ -374,6 +374,20 @@ Consequential state may affect:
 
 A constrained state that ranking is free to ignore is a comment with better formatting.
 
+## Custody Configuration Is Consequential
+
+The configuration of custody determines which paths can reach durable state.
+
+A grant added, a connector registered, a network path opened for an incident, or an enforcement mechanism reconfigured can change what the boundary governs without any individual write appearing unusual.
+
+Changes to custody configuration are therefore consequential events.
+
+They should be governed and witnessed like other consequential events.
+
+A [Coverage Assertion](coverage-assertion.html) that claims a boundary was complete for a class of state during an interval depends on that evidence. It also depends on independent observations of the effective enforcement state, because a signed sequence of known changes does not, by itself, prove that no unobserved change occurred.
+
+> **Custody that can change without evidence cannot later be shown to have been exclusive.**
+
 ## Relationship to Provenance
 
 [Provenance](provenance.html) describes evidence ancestry and verification semantics.
@@ -476,6 +490,7 @@ A conforming design should:
 - distinguish admission authority from continuing authority
 - ensure consequential lifecycle states alter downstream behavior
 - preserve observable evidence of consequential custody decisions
+- treat changes to custody configuration as consequential events that are governed and witnessed
 - avoid treating cryptographic integrity as truth
 
 The objective is not to guarantee that every admitted claim remains correct forever.
@@ -486,6 +501,7 @@ The objective is to ensure that durable state enters the system through an expli
 
 - [Provenance](provenance.html)
 - [Forensic Receipt](forensic-receipt.html)
+- [Coverage Assertion](coverage-assertion.html)
 - [Reasoning Ledger](reasoning-ledger.html)
 - [Durable Memory](durable-memory.html)
 - [Sieve-and-Sign Pattern](sieve-and-sign-pattern.html)
